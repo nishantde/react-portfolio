@@ -1,0 +1,7 @@
+.projects {
+    background-color: var(--pinkish-white);
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 1em;
+    padding: 2em 0;
+}

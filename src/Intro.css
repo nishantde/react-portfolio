@@ -1,0 +1,121 @@
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5rem; */
+    width: 75%;
+    margin: 0 auto;
+}
+
+.intro-image {
+    padding: 2rem;
+    /* padding-left: 10rem; */
+    background-color: var(--pinkish-white);
+    border-radius: 50%;
+}
+
+.dark-mode .intro-image {
+    background-color: var(--dark-red);
+}
+
+.intro-image img {
+    width: 20rem;
+    /* border-radius: 50%; */
+}
+
+.intro-text {
+    margin: 4rem 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.intro h1 {
+    font-size: 5rem;
+    font-family: "Bold";
+}
+
+.intro p {
+    font-size: 1.5rem;
+    font-family: "Light";
+}
+
+.primary-button,
+.secondary-button {
+    background-color: var(--dark-gray);
+    color: white;
+    border: 2px solid var(--dark-gray);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 1rem 1.5rem 0 0;
+    font-family: "Light";
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.secondary-button img {
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+.dark-mode .secondary-button img {
+    filter: invert(100%);
+}
+
+.primary-button:hover {
+    background-color: black;
+    cursor: pointer;
+    /* border-color: white; */
+    border-color: var(--light-gray);
+}
+
+.secondary-button {
+    background-color: white;
+    color: var(--dark-gray);
+}
+
+.secondary-button:hover {
+    background-color: var(--cream-white);
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .intro-image {
+        display: none;
+    }
+
+    .intro-text {
+        margin: 1rem;
+    }
+
+    .primary-button, .secondary-button {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .intro {
+        width: 95%;
+    }
+
+    .intro-text {
+        margin: 1rem 3rem;
+    }
+
+    .intro h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .intro {
+        width: 95%;
+    }
+}

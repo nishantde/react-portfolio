@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: "Regular";
+    src: local("Aileron-Regular"),
+        url("./assets/fonts/Aileron-Regular.ttf") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: "Regular-Italic";
+    src: local("Aileron-Italic"),
+        url("./assets/fonts/Aileron-Italic.ttf") format("truetype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: "Light";
+    src: local("Aileron-Light"),
+        url("./assets/fonts/Aileron-Light.ttf") format("truetype");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: "Thin";
+    src: local("Aileron-Thin"),
+        url("./assets/fonts/Aileron-Thin.ttf") format("truetype");
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+    font-family: "SemiBold";
+    src: local("Aileron-SemiBold"),
+        url("./assets/fonts/Aileron-SemiBold.ttf") format("truetype");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@font-face {
+    font-family: "Bold";
+    src: local("Aileron-Bold"),
+        url("./assets/fonts/Aileron-Bold.ttf") format("truetype");
+}
+
+:root {
+    --dark-red: #e54b4b;
+    --project-yellow: #f3ec78;
+    --salmon: #ffa987;
+    --light-pink: #fbcab8;
+    --pinkish-white: #f9dbd0;
+    --cream-white: #f7ebe8;
+    --light-gray: #444140;
+    --gray: #313032;
+    --dark-gray: #1e1e24;
+}
+
+.fixed-button {
+    position: fixed;
+    left: 90vw;
+    top: 50%;
+    transform: rotate(90deg);
+}
+
+html {
+    scroll-behavior: smooth;
+
+    /* Need this for ContactMePage */
+    overflow-x: hidden;
+    
+}
+
+*,
+body,
+html {
+    font-family: "Regular", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.light-mode {
+    /* background-color: var(--cream-white); */
+    color: var(--dark-gray);
+}
+
+.dark-mode {
+    background-color: var(--dark-gray);
+    color: var(--cream-white);
+}
+
+.background-image img {
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark-mode button.primary-button {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.dark-mode button.secondary-button {
+    background-color: var(--dark-gray);
+    color: white;
+    border: 2px solid white;
+}
+
+.dark-mode .projects {
+    background-color: var(--light-gray);
+}
+
+.light-mode *,
+.dark-mode *{
+    transition: all 0.25s ease-in-out;
+}
+
+/* Not too sure why adding this works for the individual project pages */
+* .light-mode, * .dark-mode {
+  transition: all 0.25s ease-in-out;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    font-family: "Bold";
+    text-align: center;
+    padding: 2rem 0;
+}
+
+p {
+    text-align: left;
+    font-family: "Regular", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 1330px) {
+  .primary-button, .secondary-button {
+    width: 200px;
   }
 }

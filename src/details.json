@@ -1,0 +1,108 @@
+[
+    {
+        "projectDetails": [
+            {
+                "id": "portfolioProjectOne",
+                "imageSource": "https://i.ibb.co/XLksGFy/Swipe-Banner.png",
+                "imageAlt": "Swipe Header Image",
+                "projectTitle": "Swipe",
+                "projectIntro": "Swipe is a prototype for a community-oriented web application for events, discussions, and socializing",
+                "projectLink": "/swipe"
+            },
+            {
+                "id": "portfolioProjectTwo",
+                "imageSource": "https://i.ibb.co/8cZzNDj/Rooms-Mates-Banner.png",
+                "imageAlt": "Rooms&Mates Header Image",
+                "projectTitle": "Rooms&Mates",
+                "projectIntro": "Rooms&Mates is an application designed to help people find their ideal home",
+                "projectLink": "/rooms-and-mates"
+            },
+            {
+                "id": "portfolioProjectThree",
+                "imageSource": "https://i.ibb.co/bzp78z2/Park-It-Banner.png",
+                "imageAlt": "ParkIt Header Image",
+                "projectTitle": "ParkIt",
+                "projectIntro": "Assisting students and teachers to find and reserve a parking spot on Clemson campus",
+                "projectLink": "/park-it"
+            },
+            {
+                "id": "portfolioProjectFour",
+                "imageSource": "https://i.ibb.co/QmnJgPG/VCFZS-Banner.png",
+                "imageAlt": "VCFZS Header Image",
+                "projectTitle": "VCFZS",
+                "projectIntro": "A prototype for an application for organizations to set up virtual car-free zones",
+                "projectLink": "/vcfzs"
+            }
+        ]
+    },
+    {
+        "toolDetails": [
+            {
+                "id": "toolOne",
+                "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+                "imageAlt": "Figma Icon",
+                "toolName": "Figma"
+            },
+            {
+                "id": "toolTwo",
+                "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg",
+                "imageAlt": "Adobe XD Icon",
+                "toolName": "Adobe XD"
+            },
+            {
+                "id": "toolThree",
+                "toolLogo": "https://balsamiq.com/assets/company/brandassets/smileyface-transparent-1080x1080.png",
+                "imageAlt": "Balsamiq Icon",
+                "toolName": "Balsamiq"
+            },
+            {
+                "id": "toolFour",
+                "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+                "imageAlt": "HTML5 Icon",
+                "toolName": "HTML"
+            },
+            {
+                "id": "toolFive",
+                "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+                "imageAlt": "CSS3 Icon",
+                "toolName": "CSS"
+            },
+            {
+                "id": "toolSix",
+                "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+                "imageAlt": "JavaScript Icon",
+                "toolName": "JavaScript"
+            },
+            {
+                "id": "toolSeven",
+                "toolLogo": "https://raw.githubusercontent.com/github/explore/ad9cd7e959a88047c830c3a9cc4e9ffcf5e644f7/topics/bulma/bulma.png",
+                "imageAlt": "Bulma Icon",
+                "toolName": "BulmaCSS"
+            },
+            {
+                "id": "toolEight",
+                "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+                "imageAlt": "Tailwind Icon",
+                "toolName": "TailwindCSS"
+            },
+            {
+                "id": "toolNine",
+                "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+                "imageAlt": "React Icon",
+                "toolName": "ReactJS"
+            },
+            {
+                "id": "toolTen",
+                "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg",
+                "imageAlt": "WordPress Icon",
+                "toolName": "WordPress"
+            },
+            {
+                "id": "toolEleven",
+                "toolLogo": "https://avatars.githubusercontent.com/u/115120?s=200&v=4",
+                "imageAlt": "Unbounce Icon",
+                "toolName": "Unbounce"
+            }
+        ]
+    }
+]

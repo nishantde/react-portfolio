@@ -1,0 +1,228 @@
+.sidebar {
+    padding-top: 1.5rem;
+    position: absolute;
+}
+
+.sidebar .contents {
+    position: fixed;
+    height: 100vh;
+    line-height: 1.5;
+}
+
+.list-item-no-link {
+    font-family: "Bold";
+    font-size: 1.5rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar .contents li a {
+    text-decoration: none;
+    line-height: 2rem;
+    color: var(--light-gray);
+    font-family: "Light";
+}
+
+.sidebar .contents li a:hover {
+    color: black;
+}
+
+.dark-mode .sidebar .contents li a {
+    text-decoration: dotted;
+    color: var(--pinkish-white);
+}
+
+.dark-mode .sidebar .contents li a:hover {
+    color: white;
+}
+
+.page-content {
+    position: relative;
+    margin: 0 auto;
+    /* width: calc(90vw-10rem); */
+    width: 50vw;
+    background-color: white;
+    line-height: 2;
+    padding: 0 2rem;
+}
+
+.page-content span.rooms-and-mates-website {
+    font-family: "SemiBold";
+}
+
+.page-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.page-content li.positive {
+    color: green;
+}
+
+.page-content li.negative {
+    color: var(--dark-red);
+}
+
+.page-content ul li, .page-content ol li {
+    font-size: 1.2rem;
+    font-family: "Light";
+}
+
+.page-content figure {
+    margin: 0 auto;
+}
+
+.page-content figure img {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dark-mode .page-content figure img {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 7px 29px 0px;
+}
+
+.page-content figure figcaption {
+    text-align: center;
+    color: var(--light-gray);
+    font-family: 'Light';
+}
+
+.dark-mode .page-content figure figcaption {
+    color: var(--pinkish-white);
+}
+
+.page-content figure.goal-tree {
+    width: 50%;
+}
+
+.page-content .rooms-and-mates-personas {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    /* flex-grow: 1; */
+}
+
+.page-content .rooms-and-mates-personas figcaption {
+    font-size: 0.8rem;
+    width: 10rem;
+    text-align: left;
+}
+
+.page-content .rooms-and-mates-personas figcaption span {
+    font-family: "SemiBold";
+}
+
+.page-content .rooms-and-mates-personas img {
+    margin: 0 auto;
+    width: 8rem;
+    border-radius: 0.5rem;
+}
+
+.dark-mode .page-content {
+    background-color: var(--dark-gray);
+}
+
+.page-content p {
+    line-height: 2;
+    font-family: "Regular";
+    padding: 1rem 0;
+}
+
+.page-content p i {
+    font-family: "Regular-Italic";
+}
+
+.project-page-title {
+    margin-bottom: 2rem;
+}
+
+.gradient-text, .page-content .one {
+    background-color: var(--project-yellow);
+    background-image: linear-gradient(45deg, var(--project-yellow), var(--dark-red));
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 4rem;
+    font-family: "Bold";
+}
+
+.page-content .one {
+    font-size: 1.2rem;
+    font-family: "Regular";
+}
+
+.primary-project-heading {
+    color: var(--dark-red);
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: 3rem 0;
+    font-family: "Bold";
+}
+
+.secondary-project-heading {
+    color: var(--salmon);
+    font-size: 2rem;
+    line-height: 1;
+    margin: 2rem 0;
+    font-family: "SemiBold";
+}
+
+.project-page .previous-and-next {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-page .previous-and-next p {
+    font-family: "Light";
+    padding-top: 0;
+    color: var(--light-gray);
+}
+
+.dark-mode .project-page .previous-and-next p {
+    color: white;
+}
+
+.project-page .previous-and-next .previous-project img {
+    transform: rotateY(180deg);
+}
+
+.dark-mode .project-page .previous-and-next img {
+    filter: invert(100%);
+}
+
+.dark-mode .project-page .previous-and-next img:hover {
+    filter: invert(50%);
+}
+
+.project-page .previous-and-next img:hover {
+    filter: invert(50%);
+}
+
+@media only screen and (max-width: 1200px) {
+    .sidebar {
+        display: none;
+    }
+
+    .page-content {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .page-content h2 span {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .page-content h2 span {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,17 @@
+.tool {
+    width: 5rem;
+    padding: 2rem 6rem;
+}
+
+.tool-logo img {
+    display: inline;
+    /* width: 100%; */
+    height: 4rem;
+    border-radius: 0.5rem;
+}
+
+.tool-name {
+    text-align: center;
+    padding-top: 1rem;
+    font-family: "Light";
+}
