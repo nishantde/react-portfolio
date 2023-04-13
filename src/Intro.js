@@ -24,7 +24,7 @@ const Intro = () => {
                             View Projects
                         </button>
                     </a>
-                    <a href="./assets/downloads/Resume.pdf" download>
+                    <a href="https://drive.google.com/file/d/1A8pKVtbru3j-ovWt6x3kXEh_44mHVMuj/view?usp=share_link" target="_blank" rel="noreferrer">
                         <button className="secondary-button">
                         <img src={DownloadIcon} alt="Download Icon" />
                             Download My Resume
