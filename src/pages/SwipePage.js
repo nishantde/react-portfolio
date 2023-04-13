@@ -259,7 +259,6 @@ const SwipePage = () => {
                         connected the necessary screens to form a prototype with
                         a proper flow.
                     </p>
-                    <p>PROTOTYPE TO BE ENTERED</p>
                     <div className="previous-and-next">
                         <div className="previous-project">
                             <Link to="/vcfzs">
