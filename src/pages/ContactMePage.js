@@ -26,6 +26,7 @@ const ContactMePage = () => {
         setLastName("");
         setEmail("");
         setMessage("");
+        alert("Message successfully sent!");
     };
 
     return (
@@ -37,7 +38,7 @@ const ContactMePage = () => {
                     </h2>
                     <h3 className="contact-me-intro-subheading">
                         Please fill out the form to reach out to
-                        me. I typically respond within 48 hours.
+                        me. I typically respond within 24 hours.
                     </h3>
                     <p>
                         <span className="semibold-text">
@@ -56,7 +57,7 @@ const ContactMePage = () => {
                                     className="contact-me-label"
                                     htmlFor="firstName"
                                 >
-                                    First Name
+                                    First Name<sup>*</sup>
                                 </label>
                                 <input
                                     type="text"
@@ -68,6 +69,7 @@ const ContactMePage = () => {
                                     onChange={(event) => {
                                         setFirstName(event.target.value);
                                     }}
+                                    required
                                 />
                             </div>
                             <div className="formLastName">
@@ -75,7 +77,7 @@ const ContactMePage = () => {
                                     className="contact-me-label"
                                     htmlFor="lastName"
                                 >
-                                    Last Name
+                                    Last Name<sup>*</sup>
                                 </label>
                                 <input
                                     type="text"
@@ -87,11 +89,12 @@ const ContactMePage = () => {
                                     onChange={(event) => {
                                         setLastName(event.target.value);
                                     }}
+                                    required
                                 />
                             </div>
                         </div>
                         <label className="contact-me-label" htmlFor="emailID">
-                            Email
+                            Email<sup>*</sup>
                         </label>
                         <input
                             type="email"
@@ -103,9 +106,10 @@ const ContactMePage = () => {
                             onChange={(event) => {
                                 setEmail(event.target.value);
                             }}
+                            required
                         />
                         <label className="contact-me-label" htmlFor="message">
-                            Message
+                            Message<sup>*</sup>
                         </label>
                         <textarea
                             name="message"
@@ -116,6 +120,7 @@ const ContactMePage = () => {
                             onChange={(event) => {
                                 setMessage(event.target.value);
                             }}
+                            required
                         ></textarea>
                         <button type="submit" className="primary-button">
                             Submit
