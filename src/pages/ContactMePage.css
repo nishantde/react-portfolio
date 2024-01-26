@@ -3,6 +3,10 @@
     height: 100vh;
 }
 
+.dark-mode .contact-me {
+    height: 100%;
+}
+
 .contact-me-content {
     /* height: 100%; */
     width: 80vw;

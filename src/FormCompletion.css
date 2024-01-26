@@ -1,0 +1,52 @@
+.dark-mode .form-completion {
+    height: 100vh;
+}
+
+.form-completion {
+    padding: 2em 0;
+}
+
+.form-completion-text {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 2rem 0;
+}
+
+.form-completion-return {
+    text-align: center;
+}
+
+.form-completion-button {
+    padding: 1rem 2rem;
+    border: 0;
+    background-color: var(--light-gray);
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.form-completion-button:hover {
+    background-color: var(--dark-gray);
+    color: var(--cream-white);
+    cursor: pointer;
+}
+
+.form-completion-button:active {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .form-completion-button {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode .form-completion-button:hover {
+    background-color: var(--cream-white);
+    color: var(--light-gray);
+}
+
+.dark-mode .form-completion-button:active {
+    background-color: var(--cream-white);
+    color: var(--light-gray);
+}
