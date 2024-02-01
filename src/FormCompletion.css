@@ -1,9 +1,14 @@
-.dark-mode .form-completion {
-    height: 100vh;
-}
-
 .form-completion {
     padding: 2em 0;
+    height: calc(100vh-80px);
+}
+
+/* .dark-mode .form-completion {
+    height: 100%;
+} */
+
+.form-completion-background {
+    margin: auto;
 }
 
 .form-completion-text {

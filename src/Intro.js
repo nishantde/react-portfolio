@@ -16,7 +16,7 @@ const Intro = () => {
                 <h1>Hello 👋</h1>
                 <p>
                     My name is Nishant, and I am a UI/UX, Product Designer, and
-                    Front-End Developer based in South Carolina.
+                    Front-End Developer looking for new roles.
                 </p>
                 <div className="intro-buttons">
                     <a href="#projects-section">

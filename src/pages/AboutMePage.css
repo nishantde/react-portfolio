@@ -1,0 +1,129 @@
+.about-me {
+    margin: 0 2rem;
+    min-height: calc(100vh-80px);
+}
+
+.dark-mode .about-me {
+    min-height: calc(100vh-80px);
+}
+
+.about-me-content {
+    width: 90vw;
+    margin: auto;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
+.about-me-description {
+    width: 40vw;
+    padding: 1rem 0;
+}
+
+.about-me-description p {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.about-me-photo img {
+    width: 40vw;
+    max-width: 500px;
+    border-radius: 50%;
+}
+
+.about-me-links {
+    width: 90vw;
+}
+
+.about-me-links ul {
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-me-links ul li {
+    display: flex;
+    flex-direction: row;
+    vertical-align: center;
+    align-items: center;
+}
+
+.about-me-links ul li a, .about-me-description-link {
+    display: inline-block;
+    position: relative;
+    color: var(--light-gray);
+    text-decoration: none;
+}
+
+.dark-mode .about-me-links ul li a {
+    color: var(--white);
+}
+
+.about-me-links ul li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--dark-gray);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.about-me-links ul li a:hover {
+    color: var(--dark-gray);
+}
+
+.about-me-links ul li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.dark-mode .about-me-links a {
+    color: white;
+}
+
+.dark-mode .about-me-links a:hover {
+    color: white;
+}
+
+.dark-mode .about-me-links a:after {
+    background-color: white;
+}
+
+.about-me-description-link {
+    color: var(--dark-blue);
+}
+
+.dark-mode .about-me-description-link {
+    color: var(--salmon);
+}
+
+.about-me-links ul img {
+    max-width: 100%;
+    filter: invert(50%);
+    display: inline;
+    margin: 0 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-me-content {
+        flex-direction: column-reverse;
+    }
+
+    .about-me-description {
+        width: 85vw;
+        margin: 0 auto;
+    }
+}

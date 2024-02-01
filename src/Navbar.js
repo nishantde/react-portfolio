@@ -22,6 +22,9 @@ const Navbar = (props) => {
                         <Link to="/">Home</Link>
                     </li>
                     <li className="link">
+                        <Link to="/about-me">About Me</Link>
+                    </li>
+                    <li className="link">
                         <Link to="/contact-me">Contact Me</Link>
                     </li>
                 </ul>

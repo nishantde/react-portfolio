@@ -61,9 +61,10 @@ const ContactMePage = () => {
                                     href="mailto:deshpande.nishant12@gmail.com"
                                     className="contact-me-email-link"
                                 >
-                                    Send me an email.
+                                    Click here to send an email.
                                 </a>
                             </p>
+                            <p></p>
                         </div>
                         <div className="form">
                             <form onSubmit={formSubmitHandler}>

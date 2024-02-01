@@ -41,6 +41,7 @@
     --light-pink: #fbcab8;
     --pinkish-white: #f9dbd0;
     --cream-white: #f7ebe8;
+    --dark-blue: #219ebc;
     --light-gray: #444140;
     --gray: #313032;
     --dark-gray: #1e1e24;
@@ -55,10 +56,8 @@
 
 html {
     scroll-behavior: smooth;
-
     /* Need this for ContactMePage */
     overflow-x: hidden;
-    
 }
 
 *,
@@ -79,11 +78,13 @@ p {
 }
 
 .light-mode {
+    min-height: 100vh;
     /* background-color: var(--cream-white); */
     color: var(--dark-gray);
 }
 
 .dark-mode {
+    min-height: 100vh;
     background-color: var(--dark-gray);
     color: var(--cream-white);
 }
