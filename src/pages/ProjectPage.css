@@ -65,7 +65,8 @@
     color: var(--dark-red);
 }
 
-.page-content ul li, .page-content ol li {
+.page-content ul li,
+.page-content ol li {
     font-size: 1.2rem;
     font-family: "Light";
 }
@@ -87,7 +88,7 @@
 .page-content figure figcaption {
     text-align: center;
     color: var(--light-gray);
-    font-family: 'Light';
+    font-family: "Light";
 }
 
 .dark-mode .page-content figure figcaption {
@@ -140,14 +141,19 @@
     margin-bottom: 2rem;
 }
 
-.gradient-text, .page-content .one {
+.gradient-text,
+.page-content .one {
     background-color: var(--project-yellow);
-    background-image: linear-gradient(45deg, var(--project-yellow), var(--dark-red));
+    background-image: linear-gradient(
+        45deg,
+        var(--project-yellow),
+        var(--dark-red)
+    );
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 4rem;
     font-family: "Bold";

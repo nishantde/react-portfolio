@@ -113,13 +113,14 @@ p {
 }
 
 .light-mode *,
-.dark-mode *{
+.dark-mode * {
     transition: all 0.25s ease-in-out;
 }
 
 /* Not too sure why adding this works for the individual project pages */
-* .light-mode, * .dark-mode {
-  transition: all 0.25s ease-in-out;
+* .light-mode,
+* .dark-mode {
+    transition: all 0.25s ease-in-out;
 }
 
 .section-heading {
@@ -137,7 +138,8 @@ p {
 }
 
 @media only screen and (max-width: 1330px) {
-  .primary-button, .secondary-button {
-    width: 200px;
-  }
+    .primary-button,
+    .secondary-button {
+        width: 200px;
+    }
 }

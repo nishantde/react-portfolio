@@ -57,7 +57,8 @@
     align-items: center;
 }
 
-.about-me-links ul li a, .about-me-description-link {
+.about-me-links ul li a,
+.about-me-description-link {
     display: inline-block;
     position: relative;
     color: var(--light-gray);
@@ -69,7 +70,7 @@
 }
 
 .about-me-links ul li a:after {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     transform: scaleX(0);

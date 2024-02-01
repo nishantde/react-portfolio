@@ -23,13 +23,15 @@
     transform: rotate(90deg); */
 }
 
-.light-mode-side img, .dark-mode-side img {
+.light-mode-side img,
+.dark-mode-side img {
     width: 1.5rem;
     position: relative;
     top: 4px;
 }
 
-.dark-mode .light-mode-side, .dark-mode .dark-mode-side {
+.dark-mode .light-mode-side,
+.dark-mode .dark-mode-side {
     filter: invert(100%);
 }
 

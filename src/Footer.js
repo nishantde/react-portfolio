@@ -13,17 +13,27 @@ const Footer = () => {
                     <img src={MainIcon} alt="Main icon for nishant.work" />
                 </div>
                 <div className="footer-links">
-                    <a href="https://www.linkedin.com/in/nishantde/" className="footer-link">LinkedIn</a>
-                    <Link to="/privacy-policy" className="footer-link">Privacy Policy</Link>
+                    <a
+                        href="https://www.linkedin.com/in/nishantde/"
+                        className="footer-link"
+                    >
+                        LinkedIn
+                    </a>
+                    <Link to="/privacy-policy" className="footer-link">
+                        Privacy Policy
+                    </Link>
                 </div>
                 <div className="contact-number">
                     <img src={whatsappLogo} alt="Logo for WhatsApp" />
-                    <p><span className="phone-subheading">Phone</span> <span className="phone-number">+91 98209 23067</span></p>
+                    <p>
+                        <span className="phone-subheading">Phone</span>{" "}
+                        <span className="phone-number">+91 98209 23067</span>
+                    </p>
                     {/* <span></span> */}
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
 export default Footer;

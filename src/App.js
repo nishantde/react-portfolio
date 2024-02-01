@@ -31,7 +31,9 @@ function App() {
             <div>
                 <div>
                     <Intro />
-                    <div className="section-heading" id="projects-section">Projects</div>
+                    <div className="section-heading" id="projects-section">
+                        Projects
+                    </div>
                     <div className="projects-section">
                         <Projects>
                             {projects.map((project) => (
@@ -68,7 +70,10 @@ function App() {
                         <Route path="/vcfzs" element={<VCFZSPage />} />
                         <Route path="/about-me" element={<AboutMePage />} />
                         <Route path="/contact-me" element={<ContactMePage />} />
-                        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+                        <Route
+                            path="/privacy-policy"
+                            element={<PrivacyPolicyPage />}
+                        />
                         <Route path="/" element={<HomePage />} />
                     </Routes>
                     <Footer />

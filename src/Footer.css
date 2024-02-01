@@ -28,7 +28,7 @@
     filter: invert(100%);
 }
 
-.footer-content .footer-links .footer-link  {
+.footer-content .footer-links .footer-link {
     margin: 0 1.5rem;
 }
 
@@ -37,7 +37,7 @@
     flex-direction: column;
 }
 
-.footer-content  .footer-link {
+.footer-content .footer-link {
     font-family: "Light";
     display: inline-block;
     position: relative;
@@ -45,8 +45,8 @@
     text-decoration: none;
 }
 
-.footer-content  .footer-link:after {
-    content: '';
+.footer-content .footer-link:after {
+    content: "";
     position: absolute;
     width: 100%;
     transform: scaleX(0);
@@ -58,20 +58,20 @@
     transition: transform 0.25s ease-out;
 }
 
-.footer-content  .footer-link:hover {
+.footer-content .footer-link:hover {
     color: var(--dark-blue);
 }
 
-.footer-content  .footer-link:hover:after {
+.footer-content .footer-link:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-.dark-mode .footer-content  .footer-link {
+.dark-mode .footer-content .footer-link {
     color: var(--salmon);
 }
 
-.dark-mode .footer-content  .footer-link:after {
+.dark-mode .footer-content .footer-link:after {
     background-color: var(--salmon);
 }
 
@@ -79,7 +79,8 @@
     font-family: "Bold";
 }
 
-.footer-content .contact-number .phone-subheading, .footer-content .contact-number .phone-number {
+.footer-content .contact-number .phone-subheading,
+.footer-content .contact-number .phone-number {
     font-size: 1rem;
     margin: 0;
     padding: 0;

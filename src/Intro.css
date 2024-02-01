@@ -95,7 +95,8 @@
         margin: 1rem;
     }
 
-    .primary-button, .secondary-button {
+    .primary-button,
+    .secondary-button {
         width: 100%;
     }
 }

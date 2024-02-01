@@ -16,7 +16,11 @@ const Project = ({ props }) => {
                 <div className="project-title">{props.projectTitle}</div>
                 <div className="project-intro">{props.projectIntro}</div>
                 {/* <div className="project-link">{props.projectLink}</div> */}
-                <div className="project-link"><Link to={props.projectLink}><img src={ArrowIcon} alt="Icon of an arrow"/></Link></div>
+                <div className="project-link">
+                    <Link to={props.projectLink}>
+                        <img src={ArrowIcon} alt="Icon of an arrow" />
+                    </Link>
+                </div>
             </div>
         </div>
     );

@@ -24,9 +24,13 @@ const Intro = () => {
                             View Projects
                         </button>
                     </a>
-                    <a href="https://drive.google.com/file/d/1i-GorO09jWo1UrUKCeUkhcfaWl5UJw5T/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <a
+                        href="https://drive.google.com/file/d/1i-GorO09jWo1UrUKCeUkhcfaWl5UJw5T/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         <button className="secondary-button">
-                        <img src={DownloadIcon} alt="Download Icon" />
+                            <img src={DownloadIcon} alt="Download Icon" />
                             My Resume
                         </button>
                     </a>

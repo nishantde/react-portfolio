@@ -12,7 +12,7 @@
     width: 80vw;
     margin: auto;
     padding: 1rem 0;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@
     padding-right: 0.5rem;
 }
 
-.contact-me-intro  a.contact-me-email-link {
+.contact-me-intro a.contact-me-email-link {
     font-family: "Light";
     display: inline-block;
     position: relative;
@@ -52,8 +52,8 @@
     text-decoration: none;
 }
 
-.contact-me-intro  a.contact-me-email-link:after {
-    content: '';
+.contact-me-intro a.contact-me-email-link:after {
+    content: "";
     position: absolute;
     width: 100%;
     transform: scaleX(0);
@@ -65,20 +65,20 @@
     transition: transform 0.25s ease-out;
 }
 
-.contact-me-intro  a.contact-me-email-link:hover {
+.contact-me-intro a.contact-me-email-link:hover {
     color: var(--dark-blue);
 }
 
-.contact-me-intro  a.contact-me-email-link:hover:after {
+.contact-me-intro a.contact-me-email-link:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-.dark-mode .contact-me-intro  a.contact-me-email-link {
+.dark-mode .contact-me-intro a.contact-me-email-link {
     color: var(--salmon);
 }
 
-.dark-mode .contact-me-intro  a.contact-me-email-link:after {
+.dark-mode .contact-me-intro a.contact-me-email-link:after {
     background-color: var(--salmon);
 }
 
@@ -128,21 +128,25 @@ textarea.contact-me-input {
     gap: 1.5rem;
 }
 
-.formFirstName, .formLastName {
+.formFirstName,
+.formLastName {
     display: flex;
     flex-direction: column;
     width: 45%;
 }
 
-.formFirstName .contact-me-label, .formLastName .contact-me-label {
+.formFirstName .contact-me-label,
+.formLastName .contact-me-label {
     width: 100%;
 }
 
-.formFirstName .contact-me-input, .formLastName .contact-me-input {
+.formFirstName .contact-me-input,
+.formLastName .contact-me-input {
     width: 85%;
 }
 
-.formFirstName input, .formLastName input {
+.formFirstName input,
+.formLastName input {
     width: 100%;
 }
 
@@ -166,11 +170,13 @@ textarea.contact-me-input {
         flex-direction: column;
     }
 
-    .contact-me form .name .formFirstName, .contact-me form .formLastName {
+    .contact-me form .name .formFirstName,
+    .contact-me form .formLastName {
         width: 100%;
     }
 
-    .contact-me form input, .contact-me form label {
+    .contact-me form input,
+    .contact-me form label {
         width: 90%;
     }
 }

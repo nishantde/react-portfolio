@@ -20,7 +20,9 @@ const PrivacyPolicyPage = () => {
                 Policy has been created with the help of the{" "}
                 <a
                     href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/"
-                    target="_blank" rel="noreferrer" className="privacy-policy-link"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="privacy-policy-link"
                 >
                     Free Privacy Policy Generator
                 </a>
@@ -116,9 +118,7 @@ const PrivacyPolicyPage = () => {
                     <p>
                         <strong>Website</strong> refers to Nishant Deshpande's
                         Online Portfolio, accessible from{" "}
-                        <Link
-                            to="/" className="privacy-policy-link"
-                        >
+                        <Link to="/" className="privacy-policy-link">
                             https://nishant.work
                         </Link>
                     </p>
@@ -211,7 +211,9 @@ const PrivacyPolicyPage = () => {
                 cookies on the{" "}
                 <a
                     href="https://www.freeprivacypolicy.com/blog/sample-privacy-policy-template/#Use_Of_Cookies_And_Tracking"
-                    target="_blank" rel="noreferrer" className="privacy-policy-link"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="privacy-policy-link"
                 >
                     Free Privacy Policy website
                 </a>{" "}
@@ -552,9 +554,7 @@ const PrivacyPolicyPage = () => {
                 <li>
                     <p>
                         By visiting this page on our website:{" "}
-                        <Link
-                            to="/contact-me" className="privacy-policy-link"
-                        >
+                        <Link to="/contact-me" className="privacy-policy-link">
                             https://nishant.work/contact-me
                         </Link>
                     </p>
