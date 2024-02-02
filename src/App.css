@@ -1,3 +1,9 @@
+/* 
+Text: Aileron
+Heading: Aileron
+*/
+
+/*
 @font-face {
     font-family: "Regular";
     src: local("Aileron-Regular"),
@@ -32,6 +38,56 @@
     font-family: "Bold";
     src: local("Aileron-Bold"),
         url("./assets/fonts/Aileron-Bold.ttf") format("truetype");
+} */
+
+/* 
+Text: Aktik Grotesk 
+Heading: GT Super
+*/
+
+@font-face {
+    font-family: "Regular";
+    src: url("./assets/fonts/new/Text-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Regular-Italic";
+    src: url("./assets/fonts/new/Text-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Light";
+    src: url("./assets/fonts/new/Text-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Thin";
+    src: url("./assets/fonts/new/Text-Thin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SemiBold";
+    src: url("./assets/fonts/new/Text-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url("./assets/fonts/new/Text-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Heading-Medium";
+    src: url("./assets/fonts/new/Heading-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Heading-SemiBold";
+    src: url("./assets/fonts/new/Heading-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Heading-Bold";
+    src: url("./assets/fonts/new/Heading-Bold.otf") format("opentype");
 }
 
 :root {
@@ -60,7 +116,6 @@ html {
     overflow-x: hidden;
 }
 
-*,
 body,
 html {
     font-family: "Regular", sans-serif;
@@ -125,7 +180,8 @@ p {
 
 .section-heading {
     font-size: 2.5rem;
-    font-family: "Bold";
+    font-family: Heading-Bold;
+    /* font-family: "Bold"; */
     text-align: center;
     padding: 2rem 0;
 }

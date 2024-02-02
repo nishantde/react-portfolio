@@ -33,7 +33,8 @@
 
 .intro h1 {
     font-size: 5rem;
-    font-family: "Bold";
+    font-family: "Heading-Bold";
+    /* font-family: "Bold"; */
 }
 
 .intro p {

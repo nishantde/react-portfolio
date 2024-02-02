@@ -38,6 +38,7 @@
 }
 
 .footer-content .footer-link {
+    font-size: 1.2rem;
     font-family: "Light";
     display: inline-block;
     position: relative;

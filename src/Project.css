@@ -25,7 +25,8 @@
 }
 
 .project-title {
-    font-family: "SemiBold", sans-serif;
+    /* font-family: "SemiBold", sans-serif; */
+    font-family: "Heading-Bold", sans-serif;
     font-size: 1.5rem;
     line-height: 1.5;
 }

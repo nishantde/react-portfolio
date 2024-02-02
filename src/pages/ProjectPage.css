@@ -141,6 +141,7 @@
     margin-bottom: 2rem;
 }
 
+/**/
 .gradient-text,
 .page-content .one {
     background-color: var(--project-yellow);
@@ -156,28 +157,35 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 4rem;
-    font-family: "Bold";
+    /* font-family: "Bold"; */
+    font-family: "Heading-Bold";
 }
 
+/**/
 .page-content .one {
     font-size: 1.2rem;
-    font-family: "Regular";
+    font-family: "Heading-Medium";
+    /* font-family: "Regular"; */
 }
 
+/**/
 .primary-project-heading {
     color: var(--dark-red);
     font-size: 3rem;
     line-height: 1.5;
     margin: 3rem 0;
-    font-family: "Bold";
+    font-family: "Heading-Bold";
+    /* font-family: "Bold"; */
 }
 
+/**/
 .secondary-project-heading {
     color: var(--salmon);
     font-size: 2rem;
     line-height: 1;
     margin: 2rem 0;
-    font-family: "SemiBold";
+    font-family: "Heading-SemiBold";
+    /* font-family: "SemiBold"; */
 }
 
 .project-page .previous-and-next {

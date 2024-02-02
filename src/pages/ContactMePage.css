@@ -28,8 +28,10 @@
     gap: 2.5rem;
 }
 
+/**/
 .contact-me-intro h2.contact-me-intro-heading {
-    font-family: "Bold";
+    /* font-family: "Bold"; */
+    font-family: "Heading-SemiBold";
     font-size: 3rem;
 }
 
@@ -113,6 +115,7 @@
 }
 
 .contact-me-input::placeholder {
+    font-family: "Regular";
     font-size: 0.8rem;
     color: var(--light-gray);
 }

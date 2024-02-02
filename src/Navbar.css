@@ -37,7 +37,8 @@
 
 .link {
     padding: 0 2rem;
-    font-family: "SemiBold";
+    /* font-family: "SemiBold"; */
+    font-family: "Heading-SemiBold";
     font-size: 1.2rem;
 }
 
