@@ -1,6 +1,6 @@
 import "./ProjectPage.css";
 
-// import { useEffect } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import VCFZSAlertUI from "../assets/images/vcfzs/vcfzs_alert_ui.png";
@@ -8,9 +8,14 @@ import VCFZSUI from "../assets/images/vcfzs/vcfzs_ui.png";
 import ArrowIcon from "../assets/icons/arrow.png";
 
 const VCFZSPage = () => {
-    // useEffect( () => {
-    //     window.scrollTo(0, 0);
-    // });
+    /* Does not work - previously commented */
+    useEffect( () => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    const scrollToElement = (element) => {
+        document.getElementById(element).scrollIntoView({behavior: "smooth"});
+    }
 
     return (
         <div>
@@ -19,21 +24,21 @@ const VCFZSPage = () => {
                     <ul className="contents">
                         <li className="list-item-no-link">Contents</li>
                         <li>
-                            <a href="#objective">Objective</a>
+                            <a href="#vcfzs-objective" onClick={() => scrollToElement("vcfzs-objective")}>Objective</a>
                         </li>
                         <li>
-                            <a href="#requirement-analysis">
+                            <a href="#requirement-analysis" onClick={() => scrollToElement("requirement-analysis")}>
                                 Requirement Analysis
                             </a>
                         </li>
                         <li>
-                            <a href="#stakeholders">Stakeholders</a>
+                            <a href="#stakeholders" onClick={() => scrollToElement("stakeholders")}>Stakeholders</a>
                         </li>
                         <li>
-                            <a href="#key-features">Two Key Features</a>
+                            <a href="#key-features" onClick={() => scrollToElement("key-features")}>Two Key Features</a>
                         </li>
                         <li>
-                            <a href="#user-interface">User Interface</a>
+                            <a href="#user-interface" onClick={() => scrollToElement("user-interface")}>User Interface</a>
                         </li>
                     </ul>
                 </div>
@@ -57,7 +62,7 @@ const VCFZSPage = () => {
                         high-fidelity web-based prototypes for the clients who
                         would be using this tool.
                     </p>
-                    <h2 className="primary-project-heading" id="objective">
+                    <h2 className="primary-project-heading" id="vcfzs-objective">
                         Objective
                     </h2>
                     <p>

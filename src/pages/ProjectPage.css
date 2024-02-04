@@ -10,7 +10,7 @@
 }
 
 .list-item-no-link {
-    font-family: "Bold";
+    font-family: "Bold", sans-serif;
     font-size: 1.5rem;
 }
 
@@ -22,7 +22,7 @@
     text-decoration: none;
     line-height: 2rem;
     color: var(--light-gray);
-    font-family: "Light";
+    font-family: "Light", sans-serif;
 }
 
 .sidebar .contents li a:hover {
@@ -49,7 +49,7 @@
 }
 
 .page-content span.rooms-and-mates-website {
-    font-family: "SemiBold";
+    font-family: "SemiBold", sans-serif;
 }
 
 .page-content ul {
@@ -68,7 +68,7 @@
 .page-content ul li,
 .page-content ol li {
     font-size: 1.2rem;
-    font-family: "Light";
+    font-family: "Light", sans-serif;
 }
 
 .page-content figure {
@@ -88,7 +88,7 @@
 .page-content figure figcaption {
     text-align: center;
     color: var(--light-gray);
-    font-family: "Light";
+    font-family: "Light", sans-serif;
 }
 
 .dark-mode .page-content figure figcaption {
@@ -114,7 +114,7 @@
 }
 
 .page-content .rooms-and-mates-personas figcaption span {
-    font-family: "SemiBold";
+    font-family: "SemiBold", sans-serif;
 }
 
 .page-content .rooms-and-mates-personas img {
@@ -129,12 +129,12 @@
 
 .page-content p {
     line-height: 2;
-    font-family: "Regular";
+    font-family: "Regular", sans-serif;
     padding: 1rem 0;
 }
 
 .page-content p i {
-    font-family: "Regular-Italic";
+    font-family: "Regular-Italic", sans-serif;
 }
 
 .project-page-title {
@@ -158,13 +158,13 @@
     -moz-text-fill-color: transparent;
     font-size: 4rem;
     /* font-family: "Bold"; */
-    font-family: "Heading-Bold";
+    font-family: "Heading-Bold", serif;
 }
 
 /**/
 .page-content .one {
     font-size: 1.2rem;
-    font-family: "Heading-Medium";
+    font-family: "Heading-Medium", serif;
     /* font-family: "Regular"; */
 }
 
@@ -174,7 +174,7 @@
     font-size: 3rem;
     line-height: 1.5;
     margin: 3rem 0;
-    font-family: "Heading-Bold";
+    font-family: "Heading-Bold", serif;
     /* font-family: "Bold"; */
 }
 
@@ -184,7 +184,7 @@
     font-size: 2rem;
     line-height: 1;
     margin: 2rem 0;
-    font-family: "Heading-SemiBold";
+    font-family: "Heading-SemiBold", serif;
     /* font-family: "SemiBold"; */
 }
 
@@ -194,7 +194,7 @@
 }
 
 .project-page .previous-and-next p {
-    font-family: "Light";
+    font-family: "Light", sans-serif;
     padding-top: 0;
     color: var(--light-gray);
 }

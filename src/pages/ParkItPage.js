@@ -1,6 +1,6 @@
 import "./ProjectPage.css";
 
-// import { useEffect } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import ParkItUI from "../assets/images/park-it/parkit_ui.png";
@@ -8,9 +8,14 @@ import ParkItVBoard from "../assets/images/park-it/parkit_vboard.png";
 import ArrowIcon from "../assets/icons/arrow.png";
 
 const ParkItPage = () => {
-    // useEffect( () => {
-    //     window.scrollTo(0, 0);
-    // });
+    /* Does not work - previously commented */
+    useEffect( () => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    const scrollToElement = (element) => {
+        document.getElementById(element).scrollIntoView({behavior: "smooth"});
+    }
 
     return (
         <div>
@@ -19,28 +24,28 @@ const ParkItPage = () => {
                     <ul className="contents">
                         <li className="list-item-no-link">Contents</li>
                         <li>
-                            <a href="#objective">Objective</a>
+                            <a href="#parkit-objective" onClick={() => scrollToElement("parkit-objective")}>Objective</a>
                         </li>
                         <li>
-                            <a href="#interdisciplinary-facets">
+                            <a href="#interdisciplinary-facets" onClick={() => scrollToElement("interdisciplinary-facets")}>
                                 Interdisciplinary Facets
                             </a>
                         </li>
                         <li>
-                            <a href="#components">Components</a>
+                            <a href="#components" onClick={() => scrollToElement("components")}>Components</a>
                             <ul>
                                 <li>
-                                    <a href="#mobile-ui">Mobile UI</a>
+                                    <a href="#mobile-ui" onClick={() => scrollToElement("mobile-ui")}>Mobile UI</a>
                                 </li>
                                 <li>
-                                    <a href="#visualization-and-display-boards">
+                                    <a href="#visualization-and-display-boards" onClick={() => scrollToElement("visualization-and-display-boards")}>
                                         Visualization &amp; Display Boards
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#wireframes">Wireframes</a>
+                            <a href="#parkit-wireframes" onClick={() => scrollToElement("parkit-wireframes")}>Wireframes</a>
                         </li>
                     </ul>
                 </div>
@@ -58,7 +63,7 @@ const ParkItPage = () => {
                         only alleviate the issues but also prove to be a viable
                         implementation.
                     </p>
-                    <h2 className="primary-project-heading" id="objective">
+                    <h2 className="primary-project-heading" id="parkit-objective">
                         Objective
                     </h2>
                     <p>
@@ -183,7 +188,7 @@ const ParkItPage = () => {
                         the LEDs located on the side of the road to the
                         designated spot.
                     </p>
-                    <h2 className="primary-project-heading" id="wireframes">
+                    <h2 className="primary-project-heading" id="parkit-wireframes">
                         Wireframes
                     </h2>
                     <p>

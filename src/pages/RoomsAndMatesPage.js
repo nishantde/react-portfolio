@@ -1,4 +1,4 @@
-// import { useEffect } from "react";
+import { useEffect } from "react";
 import "./ProjectPage.css";
 import ArrowIcon from "./../assets/icons/arrow.png";
 import { Link } from "react-router-dom";
@@ -15,9 +15,14 @@ import OrganizedOwen from "../assets/images/rooms-and-mates/organized_owen.png";
 import SocialSandy from "../assets/images/rooms-and-mates/social_sandy.jpg";
 
 const RoomsAndMatesPage = () => {
-    // useEffect( () => {
-    //     window.scrollTo(0, 0);
-    // });
+    /* Does not work - previously commented */
+    useEffect( () => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    const scrollToElement = (element) => {
+        document.getElementById(element).scrollIntoView({behavior: "smooth"});
+    }
 
     return (
         <div>
@@ -26,41 +31,41 @@ const RoomsAndMatesPage = () => {
                     <ul className="contents">
                         <li className="list-item-no-link">Contents</li>
                         <li>
-                            <a href="#overview">Overview</a>
+                            <a href="#ram-overview" onClick={() => scrollToElement("ram-overview")}>Overview</a>
                             <ul>
                                 <li>
-                                    <a href="#the-goal-tree">The Goal Tree</a>
+                                    <a href="#the-goal-tree" onClick={() => scrollToElement("the-goal-tree")}>The Goal Tree</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#the-flow">The Flow</a>
+                            <a href="#the-flow" onClick={() => scrollToElement("the-flow")}>The Flow</a>
                             <ul>
                                 <li>
-                                    <a href="#interviews-and-results">
+                                    <a href="#interviews-and-results" onClick={() => scrollToElement("interviews-and-results")}>
                                         Interviews &amp; Results
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#ips">
+                            <a href="#ips" onClick={() => scrollToElement("ips")}>
                                 Ideation, Personas &amp; Storyboards
                             </a>
                             <ul>
                                 <li>
-                                    <a href="#ideation">Ideation</a>
+                                    <a href="#ideation" onClick={() => scrollToElement("ideation")}>Ideation</a>
                                 </li>
                                 <li>
-                                    <a href="#personas">Personas</a>
+                                    <a href="#personas" onClick={() => scrollToElement("personas")}>Personas</a>
                                 </li>
                                 <li>
-                                    <a href="#storyboards">Storyboards</a>
+                                    <a href="#storyboards" onClick={() => scrollToElement("storyboards")}>Storyboards</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#wireframes">Wireframes</a>
+                            <a href="#wireframes" onClick={() => scrollToElement("wireframes")}>Wireframes</a>
                         </li>
                     </ul>
                 </div>
@@ -77,8 +82,8 @@ const RoomsAndMatesPage = () => {
                         Everyday Normans, along with Alexandra Adkins, Deyrel
                         Diaz, and Ryan Preston.
                     </p>
-                    <h2 className="primary-project-heading">Overview</h2>
-                    <p id="overview">
+                    <h2 className="primary-project-heading" id="ram-overview">Overview</h2>
+                    <p>
                         A major issue in moving to a new place, whether as a
                         student, a new employee, or simply for the adventure of
                         a new locale, is finding a place to live, and possibly
@@ -142,8 +147,8 @@ const RoomsAndMatesPage = () => {
                             makes it difficult to track legitimate users
                         </li>
                     </ul>
-                    <h3 className="secondary-project-heading">The Goal Tree</h3>
-                    <p id="the-goal-tree">
+                    <h3 className="secondary-project-heading" id="the-goal-tree">The Goal Tree</h3>
+                    <p>
                         Now that we had a goal set in mind, we had to generate a
                         goal tree that would dictate the broad steps necessary
                         for every stage of the app, divided into either of the
@@ -154,16 +159,16 @@ const RoomsAndMatesPage = () => {
                         <img src={GoalTree} alt="Goal Tree for the app" />
                         <figcaption>Goal Tree for Rooms&amp;Mates</figcaption>
                     </figure>
-                    <h2 className="primary-project-heading">The Flow</h2>
-                    <p id="the-flow">
+                    <h2 className="primary-project-heading" id="the-flow">The Flow</h2>
+                    <p>
                         The main flow of our design process was enabled by the
                         interviews that we conducted and our subsequent
                         findings. The results are presented below.
                     </p>
-                    <h3 className="secondary-project-heading">
+                    <h3 className="secondary-project-heading" id="interviews-and-results">
                         Interviews &amp; Results
                     </h3>
-                    <p id="interviews-and-results">
+                    <p>
                         Before we could get started with any designs, we were
                         tasked with researching potential users. What could they
                         do with this app? How would they use this? What would
@@ -215,8 +220,8 @@ const RoomsAndMatesPage = () => {
                         personas, and storyboards, which would give us different
                         scenarios of our product in use.
                     </p>
-                    <h3 className="secondary-project-heading">Ideation</h3>
-                    <h4 id="ideation">Consolidated Vision</h4>
+                    <h3 className="secondary-project-heading" id="ideation">Ideation</h3>
+                    <h4>Consolidated Vision</h4>
                     <p>
                         "All of a user's needs while searching for a place to
                         live are met by our design."
@@ -259,8 +264,8 @@ const RoomsAndMatesPage = () => {
                         <li>Direct into action</li>
                         <li>The learning delta</li>
                     </ol>
-                    <h3 className="secondary-project-heading">Personas</h3>
-                    <p id="personas">
+                    <h3 className="secondary-project-heading" id="personas">Personas</h3>
+                    <p>
                         In order to understand how different types of users
                         would interact with the system, we came up with four
                         personas, each with different preferences, but
@@ -285,8 +290,8 @@ const RoomsAndMatesPage = () => {
                         <figcaption><span>Social Sandy</span>: taking advantage of the 'Review', 'Contact Agent', and 'Notes' features for an in-depth experience of the properties </figcaption>
                     </figure>
                     </div>
-                    <h3 className="secondary-project-heading">Storyboards</h3>
-                    <p id="storyboards">
+                    <h3 className="secondary-project-heading" id="storyboards">Storyboards</h3>
+                    <p>
                         Storyboards are a great way of visualizing a scenario
                         play out with a persona. It provides great insight into
                         the typical environment a user might be in while using
@@ -297,8 +302,8 @@ const RoomsAndMatesPage = () => {
                         <img src={Storyboard} alt="Viewing a user flow" />
                         <figcaption>Viewing a user flow</figcaption>
                     </figure>
-                    <h2 className="primary-project-heading">Wireframes</h2>
-                    <p id="wireframes">
+                    <h2 className="primary-project-heading" id="wireframes">Wireframes</h2>
+                    <p>
                         Finally, with all the information in mind, we developed
                         a set of user interface designs to put the results of
                         our research into context. For creating these wireframes

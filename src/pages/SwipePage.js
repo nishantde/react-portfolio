@@ -20,6 +20,10 @@ const SwipePage = () => {
     //     window.scrollTo(0, 0);
     // });
 
+    const scrollToElement = (element) => {
+        document.getElementById(element).scrollIntoView({behavior: "smooth"});
+    }
+
     return (
         <div className="swipe-page">
             <div className="project-page">
@@ -27,37 +31,38 @@ const SwipePage = () => {
                     <ul className="contents">
                         <li className="list-item-no-link">Contents</li>
                         <li>
-                            <a href="#objective">Objective</a>
+                            <a href="#swipe-objective" onClick={() => scrollToElement("swipe-objective")}>Objective</a>
+                            {/* <span onClick={() => scrollToElement("objective")}>Objective</span> */}
                         </li>
                         <li>
-                            <a href="#approach">The Approach</a>
+                            <a href="#approach" onClick={() => scrollToElement("approach")}>The Approach</a>
                         </li>
                         <ul>
                             <li>
-                                <a href="#collections">Collections</a>
+                                <a href="#collections" onClick={() => scrollToElement("collections")}>Collections</a>
                             </li>
                             <li>
-                                <a href="#posts">Posts</a>
+                                <a href="#posts" onClick={() => scrollToElement("posts")}>Posts</a>
                             </li>
                             <li>
-                                <a href="#pages">Pages</a>
+                                <a href="#pages" onClick={() => scrollToElement("pages")}>Pages</a>
                             </li>
                             <li>
-                                <a href="#spotlight-and-ambassadors">
+                                <a href="#spotlight-and-ambassadors" onClick={() => scrollToElement("spotlight-and-ambassadors")}>
                                     Spotlight &amp; Ambassadors
                                 </a>
                             </li>
                         </ul>
                         <li>
-                            <a href="#research">Research</a>
+                            <a href="#research" onClick={() => scrollToElement("research")}>Research</a>
                         </li>
                         <li>
-                            <a href="#sketches-and-wireframes">
+                            <a href="#sketches-and-wireframes" onClick={() => scrollToElement("sketches-and-wireframes")}>
                                 Sketches &amp; Wireframes
                             </a>
                         </li>
                         <li>
-                            <a href="#prototype">The Prototype</a>
+                            <a href="#prototype" onClick={() => scrollToElement("prototype")}>The Prototype</a>
                         </li>
                     </ul>
                 </div>
@@ -74,7 +79,7 @@ const SwipePage = () => {
                         developing a prototype that would provide the complete
                         experience of using the platform.
                     </p>
-                    <h2 className="primary-project-heading" id="objective">
+                    <h2 className="primary-project-heading" id="swipe-objective">
                         Objective
                     </h2>
                     <p>

@@ -31,23 +31,23 @@
 /**/
 .contact-me-intro h2.contact-me-intro-heading {
     /* font-family: "Bold"; */
-    font-family: "Heading-SemiBold";
+    font-family: "Heading-SemiBold", serif;
     font-size: 3rem;
 }
 
 .contact-me-intro h3.contact-me-intro-subheading {
-    font-family: "Light";
+    font-family: "Light", sans-serif;
     font-size: 1.5rem;
     line-height: 1.5;
 }
 
 .contact-me-intro span.semibold-text {
-    font-family: "SemiBold";
+    font-family: "SemiBold", sans-serif;
     padding-right: 0.5rem;
 }
 
 .contact-me-intro a.contact-me-email-link {
-    font-family: "Light";
+    font-family: "Light", sans-serif;
     display: inline-block;
     position: relative;
     color: var(--dark-blue);
@@ -115,7 +115,7 @@
 }
 
 .contact-me-input::placeholder {
-    font-family: "Regular";
+    font-family: "Regular", sans-serif;
     font-size: 0.8rem;
     color: var(--light-gray);
 }
@@ -161,11 +161,11 @@ textarea.contact-me-input {
 
 @media only screen and (max-width: 768px) {
     .contact-me-content {
-        width: 90vw;
+        max-width: 90vw;
     }
 
     .contact-me form {
-        width: 80vw;
+        max-width: 80vw;
         margin: 0 auto;
     }
 
