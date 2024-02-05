@@ -104,7 +104,8 @@
         align-items: flex-start;
     }
 
-    .footer-elements .site-logo img, .footer-elements .contact-number {
+    .footer-elements .site-logo img,
+    .footer-elements .contact-number {
         margin: 0.5rem 1.5rem;
     }
 
@@ -129,7 +130,8 @@
         justify-content: space-around;
     }
 
-    .footer-elements .site-logo img, .footer-elements .contact-number {
+    .footer-elements .site-logo img,
+    .footer-elements .contact-number {
         margin: 0.5rem 1.5rem;
     }
 
