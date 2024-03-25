@@ -48,6 +48,11 @@
     padding: 0 2rem;
 }
 
+h4 {
+    font-family: "Heading-Medium", serif;
+    font-size: 1.2rem;
+}
+
 .page-content span.rooms-and-mates-website {
     font-family: "SemiBold", sans-serif;
 }
@@ -129,8 +134,12 @@
 
 .page-content p {
     line-height: 2;
-    font-family: "Regular", sans-serif;
     padding: 1rem 0;
+    color: #555;
+}
+
+.dark-mode .page-content p {
+    color: #eee;
 }
 
 .page-content p i {

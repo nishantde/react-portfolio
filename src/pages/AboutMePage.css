@@ -123,6 +123,14 @@
     margin: 0 4px;
 }
 
+.about-me-links ul li:hover img {
+    filter: invert(100%);
+}
+
+.dark-mode .about-me-links ul li:hover img {
+    filter: invert(10%);
+}
+
 @media only screen and (max-width: 768px) {
     .about-me {
         margin: 1rem 0;
@@ -145,7 +153,15 @@
 }
 
 @media only screen and (max-width: 560px) {
+    .about-me-links {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
     .about-me-links ul {
+        flex-direction: column;
         justify-content: left;
+        
     }
 }

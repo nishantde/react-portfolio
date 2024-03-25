@@ -16,7 +16,7 @@ const Intro = () => {
                 <h1>Hello 👋</h1>
                 <p>
                     My name is Nishant, and I am a UI/UX, Product Designer, and
-                    Front-End Developer looking for new roles.
+                    Front-End Developer. Designing creative web solutions as the <span className="current-position">Lead UI/UX Developer &#64; Tiivra Ventures</span>.
                 </p>
                 <div className="intro-buttons">
                     <a href="#projects-section">
@@ -25,7 +25,7 @@ const Intro = () => {
                         </button>
                     </a>
                     <a
-                        href="https://drive.google.com/file/d/1i-GorO09jWo1UrUKCeUkhcfaWl5UJw5T/view?usp=sharing"
+                        href="https://drive.google.com/file/d/19u1eQhQWR2i4Q31wCgPbn2M_aXNDhzZq/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                     >

@@ -18,8 +18,7 @@ const AboutMePage = () => {
                 <div className="about-me-description">
                     <h2>Hey, I'm Nishant</h2>
                     <p>
-                        I am from Mumbai, a UI/UX Designer and Front-End
-                        Developer who loves everything web, movies, and baking!
+                        I am a UI/UX Designer and Front-End Developer from Mumbai who loves everything web, movies, and baking!
                     </p>
                     <p>
                         I completed my bachelor's in Computer Engineering from
@@ -39,9 +38,7 @@ const AboutMePage = () => {
                     </p>
                     <p>
                         I have around two years of work experience in the United
-                        States, and I'm currently looking for roles in the
-                        Front-End Development domain and the Product Design and
-                        UI/UX space in India.
+                        States, and I'm currently working as the Lead UI/UX Developer at Tiivra Ventures in Mumbai.
                     </p>
                     <p>
                         For business inquiries, I'm reachable via my{" "}

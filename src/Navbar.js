@@ -22,10 +22,10 @@ const Navbar = (props) => {
                         <Link to="/">Home</Link>
                     </li>
                     <li className="link">
-                        <Link to="/about-me">About Me</Link>
+                        <Link to="/about-me">About</Link>
                     </li>
                     <li className="link">
-                        <Link to="/contact-me">Contact Me</Link>
+                        <Link to="/contact-me">Contact</Link>
                     </li>
                 </ul>
             </div>
