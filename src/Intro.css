@@ -31,17 +31,24 @@
     gap: 3rem;
 }
 
+.intro-text .current-position {
+    color: #f8cb23;
+}
+
+.intro-text .current-position-tvarra {
+    color: #e24182;
+}
+
 .intro-text .current-position-link {
     font-family: "Bold", sans-serif;
     text-underline-offset: 6px;
 }
 
-.intro-text .current-position {
+.intro-text .current-position-link:nth-of-type(1) {
     color: #f8cb23;
-    font-family: "Regular", sans-serif;
 }
 
-.intro-text .current-position-tvarra {
+.intro-text .current-position-link:nth-of-type(2) {
     color: #e24182;
 }
 
