@@ -31,6 +31,11 @@
     gap: 3rem;
 }
 
+.intro-text .current-position-link {
+    font-family: "Bold", sans-serif;
+    text-underline-offset: 6px;
+}
+
 .intro-text .current-position {
     color: #f8cb23;
     font-family: "Regular", sans-serif;
