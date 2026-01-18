@@ -36,6 +36,10 @@
     font-family: "Regular", sans-serif;
 }
 
+.intro-text .current-position-tvarra {
+    color: #e24182;
+}
+
 .intro h1 {
     font-size: 5rem;
     font-family: "Heading-Bold", serif;
