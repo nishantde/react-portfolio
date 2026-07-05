@@ -19,9 +19,13 @@ const Intro = () => {
                     Front-End Developer. Previously designing creative web solutions as the Lead UI/UX Developer &#64; <a href="https://tiivra.com" target="blank_" rel="noreferrer" className="current-position-link"><span className="current-position">Tiivra</span></a> &amp; <a href="https://tvarra.com" target="blank_" rel="noreferrer" className="current-position-link"><span className="current-position-tvarra">Tvarra</span></a>.
                 </p>
                 <div className="intro-buttons">
-                    <a href="#projects-section">
+                    <a 
+                        href="https://drive.google.com/file/d/1tVqz5Kw9tc_mopWeAIil4YNVDyRTdUGT/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         <button className="primary-button">
-                            View Projects
+                            View Portfolio
                         </button>
                     </a>
                     <a
