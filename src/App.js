@@ -32,7 +32,7 @@ function App() {
                 <div>
                     <Intro />
                     <div className="section-heading" id="projects-section">
-                        Projects
+                        Other Projects
                     </div>
                     <div className="projects-section">
                         <Projects>
