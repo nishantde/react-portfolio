@@ -37,8 +37,9 @@ const AboutMePage = () => {
                         .
                     </p>
                     <p>
-                        I have around two years of work experience in the United
-                        States, and I'm currently working as the Lead UI/UX Developer at Tiivra Ventures in Mumbai.
+                        I have around five years of work experience. I worked in the United
+                        States for two years, and most recently, I was the Lead UI/UX Developer at Tiivra Ventures in Mumbai.
+                        Currently, I am a Freelance UI/UX Designer and Web Developer.
                     </p>
                     <p>
                         For business inquiries, I'm reachable via my{" "}
