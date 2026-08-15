@@ -29,7 +29,7 @@ const Intro = () => {
                         </button>
                     </a>
                     <a
-                        href="https://drive.google.com/file/d/1LC8_lQnXgaNJjV5kSYCn3JYb5vnbB6UZ/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1h9ZMWwan4JEF2M97qKyMX2xbeyO6ujG0/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                     >
