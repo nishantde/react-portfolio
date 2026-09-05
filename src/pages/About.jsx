@@ -1,4 +1,5 @@
 import { about } from '../data/about'
+import Reveal from '../components/Reveal.jsx'
 
 function SectionLabel({ children }) {
   return (
@@ -66,54 +67,60 @@ export default function About() {
       </header>
 
       <section className="wrap about-block">
-        <SectionLabel>What I Do</SectionLabel>
-        <div className="cs-grid-3">
-          {about.skills.map((s) => (
-            <article className="cs-card surface" key={s.id}>
-              <span className="about-icon">{skillIcons[s.id]}</span>
-              <h2>{s.title}</h2>
-              <p>{s.body}</p>
-            </article>
-          ))}
-        </div>
+        <Reveal>
+          <SectionLabel>What I Do</SectionLabel>
+          <div className="cs-grid-3">
+            {about.skills.map((s) => (
+              <article className="cs-card surface" key={s.id}>
+                <span className="about-icon">{skillIcons[s.id]}</span>
+                <h2>{s.title}</h2>
+                <p>{s.body}</p>
+              </article>
+            ))}
+          </div>
+        </Reveal>
       </section>
 
       <section className="wrap about-block">
-        <SectionLabel>Experience</SectionLabel>
-        <ul className="about-jobs">
-          {about.experience.map((job) => (
-            <li key={job.role + job.dates}>
-              <div>
-                <p className="about-role">{job.role}</p>
-                <p className="about-org">{job.org}</p>
-              </div>
-              <p className="about-dates">{job.dates}</p>
-            </li>
-          ))}
-        </ul>
+        <Reveal>
+          <SectionLabel>Experience</SectionLabel>
+          <ul className="about-jobs">
+            {about.experience.map((job) => (
+              <li key={job.role + job.dates}>
+                <div>
+                  <p className="about-role">{job.role}</p>
+                  <p className="about-org">{job.org}</p>
+                </div>
+                <p className="about-dates">{job.dates}</p>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
       </section>
 
       <section className="wrap about-block">
-        <SectionLabel>Find Me Online</SectionLabel>
-        <ul className="about-socials-desk">
-          {about.socials.map((s) => (
-            <li key={s.href}>
-              <a href={s.href} target="_blank" rel="noreferrer">
-                {s.label} — {s.handle}
-              </a>
-            </li>
-          ))}
-        </ul>
-        <ul className="about-socials-mob">
-          {about.socials.map((s) => (
-            <li key={s.href}>
-              <a href={s.href} target="_blank" rel="noreferrer">
-                <span>{s.label} — {s.handle}</span>
-                <IconArrow />
-              </a>
-            </li>
-          ))}
-        </ul>
+        <Reveal>
+          <SectionLabel>Find Me Online</SectionLabel>
+          <ul className="about-socials-desk">
+            {about.socials.map((s) => (
+              <li key={s.href}>
+                <a href={s.href} target="_blank" rel="noreferrer">
+                  {s.label} — {s.handle}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <ul className="about-socials-mob">
+            {about.socials.map((s) => (
+              <li key={s.href}>
+                <a href={s.href} target="_blank" rel="noreferrer">
+                  <span>{s.label} — {s.handle}</span>
+                  <IconArrow />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
       </section>
     </article>
   )

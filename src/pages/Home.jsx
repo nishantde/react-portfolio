@@ -4,6 +4,7 @@ import SectionLabel from "../components/SectionLabel.jsx"
 import WorkCard from "../components/WorkCard.jsx"
 import { aboutBlurb, processSteps } from "../data/site"
 import { workItems } from "../data/work"
+import Reveal from '../components/Reveal.jsx'
 
 export default function Home() {
   return (
@@ -35,33 +36,39 @@ export default function Home() {
       <section className="section wrap">
         <SectionLabel>Selected Work</SectionLabel>
         <div className="work-list">
-          {workItems.map((item) => (
-            <WorkCard key={item.slug} item={item} />
+          {workItems.map((item, i) => (
+            <Reveal key={item.slug} delay={i * 0.06}>
+              <WorkCard key={item.slug} item={item} />
+            </Reveal>
           ))}
         </div>
       </section>
 
       <section className="section-tight wrap">
-        <SectionLabel>How I Work</SectionLabel>
-        <div className="process-grid">
-          {processSteps.map((step) => (
-            <article className="process-card" key={step.n}>
-              <p className="num">{step.n}</p>
-              <h3>{step.title}</h3>
-              <p>{step.body}</p>
-            </article>
-          ))}
-        </div>
+        <Reveal>
+          <SectionLabel>How I Work</SectionLabel>
+          <div className="process-grid">
+            {processSteps.map((step) => (
+              <article className="process-card" key={step.n}>
+                <p className="num">{step.n}</p>
+                <h3>{step.title}</h3>
+                <p>{step.body}</p>
+              </article>
+            ))}
+          </div>
+        </Reveal>
       </section>
 
       <section className="section-tight wrap">
-        <SectionLabel>About</SectionLabel>
-        <div className="about-row">
-          <p>{aboutBlurb}</p>
-          <Link to="/about" className="about-link">
-            More about me →
-          </Link>
-        </div>
+        <Reveal>
+          <SectionLabel>About</SectionLabel>
+          <div className="about-row">
+            <p>{aboutBlurb}</p>
+            <Link to="/about" className="about-link">
+              More about me →
+            </Link>
+          </div>
+        </Reveal>
       </section>
     </>
   )
