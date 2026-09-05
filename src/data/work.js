@@ -6,7 +6,7 @@ export const workItems = [
     imageAlt: "Premium riding helmet and leather jacket for Tiivra",
     tags: ["E-COMMERCE", "SHOPIFY", "UX RESEARCH", "CRO", "WEBSITE REDESIGN"],
     title:
-      "Complete e-commerce overhaul for a premium riding gear brand — boosting store conversion to 1.2%.",
+      "Complete e-commerce overhaul for a premium riding gear brand: boosting store conversion to 1.2%.",
   },
   {
     slug: "label-utha",
@@ -24,7 +24,7 @@ export const workItems = [
     imageAlt: "Woman rider in black gear against neon studio lights for Tvarra",
     tags: ["D2C", "SHOPIFY", "E-COMMERCE", "MOBILE-FIRST", "BRAND IDENTITY"],
     title:
-      "Premium shopping experience for stylish, safety-conscious women riders — growing conversion to 1.5%.",
+      "Premium shopping experience for stylish, safety-conscious women riders: growing conversion to 1.5%.",
   },
   {
     slug: "highx",

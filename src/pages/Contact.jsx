@@ -71,7 +71,7 @@ export default function Contact() {
         {status === 'sent' ? (
           <div className="contact-form contact-success">
             <h2>Form submitted.</h2>
-            <p>Thanks — I'll get back to you within 24 hours.</p>
+            <p>Thanks! I'll get back to you within 24 hours.</p>
             <button type="button" onClick={() => setStatus('idle')}>
               Send another message
             </button>

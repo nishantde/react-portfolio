@@ -217,7 +217,7 @@ img {
 @media (min-width: 768px) {
   .hero {
     padding-top: 112px;
-    padding-bottom: 80px;
+    padding-bottom: 140px;
   }
   
   .hero h1 {
@@ -558,7 +558,7 @@ img {
   }
 }
 
-/* ===== Case study page ===== */
+/* Case study pages */
 .cs-hero {
   padding-top: 24px;
   padding-bottom: 40px;
@@ -869,8 +869,8 @@ img {
 
 .cs-metric-value {
   margin: 0;
-  text-align: center;
-  font-size: 36px;
+  text-align: left;
+  font-size: 48px;
   font-weight: 700;
   letter-spacing: -0.03em;
   color: var(--fg);
@@ -969,7 +969,7 @@ img {
   
   .cs-metrics { grid-template-columns: repeat(3, 1fr); }
   
-  .cs-metric-value { font-size: 48px; }
+  .cs-metric-value { font-size: 64px; }
   
   .cs-results-foot { font-size: 16px; }
   
@@ -991,7 +991,7 @@ img {
   background: var(--bg);
 }
 
-/* ===== About ===== */
+/* About page */
 .about-hero {
   padding-top: 40px;
   padding-bottom: 80px;
@@ -1162,7 +1162,7 @@ img {
   .about-socials-mob { display: none; }
 }
 
-/* ===== Contact ===== */
+/* Contact page */
 .contact-hero {
   padding-top: 48px;
   padding-bottom: 40px;

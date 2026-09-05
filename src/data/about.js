@@ -24,29 +24,29 @@ export const about = {
     {
       id: 'ecom',
       title: 'E-Commerce UX',
-      body: 'Conversion-focused Shopify design and development for D2C brands — from product discovery and collection pages to checkout flow optimization.',
+      body: 'Conversion-focused Shopify design and development for D2C brands: from product discovery and collection pages to checkout flow optimization.',
     },
   ],
   experience: [
     {
       role: 'Freelance UI/UX Designer',
       org: 'Mumbai, MH',
-      dates: 'Feb 2026 – Present',
+      dates: 'Feb 2026 - Present',
     },
     {
       role: 'Lead UI/UX Developer',
       org: 'Tiivra Ventures  •  Mumbai, MH',
-      dates: 'Feb 2024 – Feb 2026',
+      dates: 'Feb 2024 - Feb 2026',
     },
     {
       role: 'Front-End Developer',
       org: 'Ardor IT Systems  •  Charlotte, NC, USA',
-      dates: 'Nov 2022 – Feb 2024',
+      dates: 'Nov 2022 - Feb 2024',
     },
     {
       role: 'Front-End Developer',
       org: 'Found Search Marketing  •  Fishers, IN, USA',
-      dates: 'Nov 2021 – Oct 2022',
+      dates: 'Nov 2021 - Oct 2022',
     },
   ],
   socials: [

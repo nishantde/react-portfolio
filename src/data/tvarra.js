@@ -30,7 +30,7 @@ export const tvarra = {
     {
       n: '03',
       title: 'First-Time Buyers',
-      body: 'Many visitors would be first-time online helmet buyers. The entire journey — from discovery to checkout — needed to feel reassuring, with clear trust signals at every touchpoint.',
+      body: 'Many visitors would be first-time online helmet buyers. The entire journey, from discovery to checkout, needed to feel reassuring, with clear trust signals at every touchpoint.',
     },
   ],
   researchIntro:

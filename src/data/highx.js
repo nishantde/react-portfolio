@@ -75,13 +75,13 @@ export const highx = {
     },
     {
       title: 'Design Philosophy',
-      body: 'Restraint as a design principle: letting product graphics breathe. Components mirror streetwear aesthetic – raw, graphic, and intentional. White space is not emptiness; it is the frame that elevates the brand.',
+      body: 'Restraint as a design principle: letting product graphics breathe. Components mirror streetwear aesthetic: raw, graphic, and intentional. White space is not emptiness; it is the frame that elevates the brand.',
     },
   ],
   typefaces: {
     primary: 'Fraunces',
     secondary: 'Chivo',
-    body: 'Fraunces for playful, expressive headings paired with Chivo for clean, urban body text — a type system that balances personality with readability.',
+    body: 'Fraunces for playful, expressive headings paired with Chivo for clean, urban body text - a type system that balances personality with readability.',
   },
   swatches: [
     { name: 'White', hex: '#FFFFFF', color: '#ffffff' },
@@ -91,7 +91,7 @@ export const highx = {
   ],
   visualAside: {
     kicker: 'Design Rationale',
-    body: 'Less visual noise, more emotional impact. Components mirror the streetwear aesthetic – raw, graphic, and intentional. Every element earns its place.',
+    body: 'Less visual noise, more emotional impact. Components mirror the streetwear aesthetic: raw, graphic, and intentional. Every element earns its place.',
   },
   experienceImage: {
     src: '/images/case-study-ui-highx.png',
@@ -115,5 +115,5 @@ export const highx = {
       body: 'A grid layout that mirrors physical lookbooks, letting products stand as art pieces.',
     },
   ],
-  next: { href: '/tiivra', name: 'TIIVRA — Performance Riding Gear' },
+  next: { href: '/tiivra', name: 'Tiivra - Performance Riding Gear' },
 }

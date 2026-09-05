@@ -26,7 +26,7 @@ export default function Home() {
           </span>
         </h1>
         <p>
-          From research to shipped product — e-commerce UX, Shopify development,
+          From research to shipped product: e-commerce UX, Shopify development,
           and conversion-focused design for brands that care about results.
         </p>
       </section>

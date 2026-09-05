@@ -100,7 +100,6 @@ export default function LabelUtha() {
         </Reveal>
       </Band>
 
-      {/* No IA on this page — Visual is surface so the bands keep alternating */}
       <Band tone="surface">
         <Reveal>
           <div className="wrap">

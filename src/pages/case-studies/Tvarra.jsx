@@ -99,7 +99,6 @@ export default function Tvarra() {
         </Reveal>
       </Band>
 
-      {/* No IA — Visual is surface so bands keep alternating */}
       <Band tone="surface">
         <Reveal>
             <div className="wrap">

@@ -105,7 +105,7 @@ export default function About() {
             {about.socials.map((s) => (
               <li key={s.href}>
                 <a href={s.href} target="_blank" rel="noreferrer">
-                  {s.label} — {s.handle}
+                  {s.label} - {s.handle}
                 </a>
               </li>
             ))}
@@ -114,7 +114,7 @@ export default function About() {
             {about.socials.map((s) => (
               <li key={s.href}>
                 <a href={s.href} target="_blank" rel="noreferrer">
-                  <span>{s.label} — {s.handle}</span>
+                  <span>{s.label} - {s.handle}</span>
                   <IconArrow />
                 </a>
               </li>

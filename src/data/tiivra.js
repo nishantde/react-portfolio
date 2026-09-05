@@ -15,7 +15,7 @@ export const tiivra = {
   overviewHeadline:
     'A complete e-commerce overhaul focused on elevating UX, strengthening brand identity, and driving measurable sales conversion.',
   overviewBody:
-    'TIIVRA is a premium motorcycle helmets and riding accessories brand. Despite active marketing spend, the existing site failed to convert visitors into buyers. Page load times were slow, the visual language was inconsistent across pages, and the checkout flow created unnecessary friction. The project involved a ground-up redesign of the entire Shopify storefront — from information architecture and user research through to high-fidelity UI design and front-end development.',
+    'TIIVRA is a premium motorcycle helmets and riding accessories brand. Despite active marketing spend, the existing site failed to convert visitors into buyers. Page load times were slow, the visual language was inconsistent across pages, and the checkout flow created unnecessary friction. The project involved a ground-up redesign of the entire Shopify storefront; from information architecture and user research through to high-fidelity UI design and front-end development.',
   overviewImage: {
     src: '/images/case-study-site-overview-tiivra.png',
     alt: 'Tiivra storefront on desktop, tablet, and mobile',
@@ -24,7 +24,7 @@ export const tiivra = {
     {
       n: '01',
       title: 'Low Conversion',
-      body: "Despite significant marketing investment, the site's conversion rate sat at 0.08% — well below industry benchmarks. Visitors browsed but didn't buy.",
+      body: "Despite significant marketing investment, the site's conversion rate sat at 0.08% - well below industry benchmarks. Visitors browsed but didn't buy.",
     },
     {
       n: '02',
@@ -34,7 +34,7 @@ export const tiivra = {
     {
       n: '03',
       title: 'Inconsistent Experience',
-      body: "The visual language shifted between pages — different type hierarchies, inconsistent spacing, clashing color usage. The site didn't feel like a premium brand.",
+      body: "The visual language shifted between pages; different type hierarchies, inconsistent spacing, clashing color usage. The site didn't feel like a premium brand.",
     },
   ],
   researchIntro:
