@@ -982,3 +982,7 @@ img {
 .cs-learnings .cs-card h3 {
   margin: 0;
 }
+
+.cs-band.surface .cs-metric {
+  background: var(--bg);
+}
