@@ -89,8 +89,7 @@ img {
 }
 
 .logo img {
-  height: 28px;
-  width: auto;
+  height: 32px;
 }
 
 .nav-desktop {
@@ -150,7 +149,7 @@ img {
 
 @media (min-width: 768px) {
   .logo img {
-    height: 32px;
+    height: 48px;
   }
   
   .nav-desktop {
@@ -165,17 +164,22 @@ img {
 
 /* Hero */
 .hero {
-  padding-top: 80px;
+  padding-top: 0;
   padding-bottom: 64px;
 }
 
 .eyebrow {
   margin: 0;
-  font-size: 12px;
+  font-size: 10px !important;
   font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--muted);
+}
+
+.eyebrow,
+.section-label p {
+  font-size: 10px;
 }
 
 .hero h1 {
