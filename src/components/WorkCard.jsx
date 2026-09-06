@@ -5,7 +5,9 @@ export default function WorkCard({ item }) {
   return (
     <article className="work-card">
       <Link to={item.href}>
-        <FadeImage src={item.image} alt={item.imageAlt} />
+        <div className="work-card-media">
+          <FadeImage src={item.image} alt={item.imageAlt} className="work-card-img" />
+        </div>
         <ul className="work-tags">
           {item.tags.map((tag) => (
             <li key={tag}>{tag}</li>

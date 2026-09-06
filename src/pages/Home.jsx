@@ -5,7 +5,6 @@ import WorkCard from "../components/WorkCard.jsx"
 import { aboutBlurb, processSteps } from "../data/site"
 import { workItems } from "../data/work"
 import Reveal from '../components/Reveal.jsx'
-import FadeImage from '../components/FadeImage.jsx'
 import HeroStagger from '../components/HeroStagger.jsx'
 
 export default function Home() {
