@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { highx } from '../../data/highx'
 import Reveal from '../../components/Reveal.jsx'
+import FadeImage from '../../components/FadeImage.jsx'
+import HeroStagger from '../../components/HeroStagger.jsx'
 
 function SectionLabel({ children }) {
   return (
@@ -21,18 +23,20 @@ export default function HighX() {
   return (
     <article>
       <header className="wrap cs-hero">
-        <SectionLabel>{study.eyebrow}</SectionLabel>
-        <h1 className="cs-title">{study.title}</h1>
-        <p className="cs-lede">{study.lede}</p>
-        <dl className="cs-meta">
-          {study.meta.map((m) => (
-            <div key={m.label}>
-              <dt>{m.label}</dt>
-              <dd>{m.value}</dd>
-            </div>
-          ))}
-        </dl>
-        <img className="cs-banner" src={study.banner.src} alt={study.banner.alt} />
+        <HeroStagger>
+          <SectionLabel>{study.eyebrow}</SectionLabel>
+          <h1 className="cs-title">{study.title}</h1>
+          <p className="cs-lede">{study.lede}</p>
+          <dl className="cs-meta">
+            {study.meta.map((m) => (
+              <div key={m.label}>
+                <dt>{m.label}</dt>
+                <dd>{m.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </HeroStagger>
+        <FadeImage className="cs-banner" src={study.banner.src} alt={study.banner.alt} />
       </header>
 
       <Band tone="surface">
@@ -43,7 +47,7 @@ export default function HighX() {
               <h2>{study.overviewHeadline}</h2>
               <p>{study.overviewBody}</p>
             </div>
-            <img className="cs-figure" src={study.overviewImage.src} alt={study.overviewImage.alt} />
+            <FadeImage className="cs-figure" src={study.overviewImage.src} alt={study.overviewImage.alt} />
           </div>
         </Reveal>
       </Band>
@@ -79,7 +83,7 @@ export default function HighX() {
                 </article>
               ))}
             </div>
-            <img className="cs-figure" src={study.researchBoard.src} alt={study.researchBoard.alt} />
+            <FadeImage className="cs-figure" src={study.researchBoard.src} alt={study.researchBoard.alt} />
           </div>
         </Reveal>
       </Band>
@@ -136,7 +140,7 @@ export default function HighX() {
         <Reveal>
           <div className="wrap">
             <SectionLabel>The Experience</SectionLabel>
-            <img className="cs-figure" src={study.experienceImage.src} alt={study.experienceImage.alt} />
+            <FadeImage className="cs-figure" src={study.experienceImage.src} alt={study.experienceImage.alt} />
             <div className="cs-exp-points">
               {study.experiencePoints.map((p) => (
                 <div key={p.title}>

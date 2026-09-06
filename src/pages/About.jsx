@@ -1,5 +1,7 @@
 import { about } from '../data/about'
 import Reveal from '../components/Reveal.jsx'
+import FadeImage from '../components/FadeImage.jsx'
+import HeroStagger from '../components/HeroStagger.jsx'
 
 function SectionLabel({ children }) {
   return (
@@ -54,16 +56,18 @@ export default function About() {
   return (
     <article>
       <header className="wrap about-hero">
-        <h1 className="about-title">{about.title}</h1>
-        <p className="about-lede">{about.lede}</p>
-        <div className="about-intro">
-          <img src={about.photo.src} alt={about.photo.alt} />
-          <div className="about-bio">
-            {about.bio.map((p) => (
-              <p key={p}>{p}</p>
-            ))}
+        <HeroStagger>
+          <h1 className="about-title">{about.title}</h1>
+          <p className="about-lede">{about.lede}</p>
+          <div className="about-intro">
+            <FadeImage src={about.photo.src} alt={about.photo.alt} />
+            <div className="about-bio">
+              {about.bio.map((p) => (
+                <p key={p}>{p}</p>
+              ))}
+            </div>
           </div>
-        </div>
+        </HeroStagger>
       </header>
 
       <section className="wrap about-block">

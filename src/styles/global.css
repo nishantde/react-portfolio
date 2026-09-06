@@ -1362,3 +1362,23 @@ img {
   
   .contact-name-row { grid-template-columns: 1fr 1fr; }
 }
+
+/* Additional transition and stagger */
+a {
+  transition: color 150ms ease, background-color 150ms ease, opacity 150ms ease;
+}
+
+button {
+  transition: color 150ms ease, background-color 150ms ease, opacity 150ms ease;
+}
+
+.fade-img {
+  opacity: 0;
+  transition: opacity 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.fade-img.is-on { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-img { opacity: 1; transition: none; }
+}

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { MAKE_HOOK, contact } from '../data/contact'
+import HeroStagger from '../components/HeroStagger.jsx'
 
 function IconMail() {
   return (
@@ -62,9 +63,11 @@ export default function Contact() {
   return (
     <article>
       <header className="wrap contact-hero">
-        <h1>{contact.title}</h1>
-        <p className="contact-kicker">{contact.kicker}</p>
-        <p className="contact-lede">{contact.lede}</p>
+        <HeroStagger>
+          <h1>{contact.title}</h1>
+          <p className="contact-kicker">{contact.kicker}</p>
+          <p className="contact-lede">{contact.lede}</p>
+        </HeroStagger>
       </header>
 
       <div className="wrap contact-layout">
