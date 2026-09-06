@@ -15,7 +15,7 @@ export const tiivra = {
   overviewHeadline:
     'A complete e-commerce overhaul focused on elevating UX, strengthening brand identity, and driving measurable sales conversion.',
   overviewBody:
-    'TIIVRA is a premium motorcycle helmets and riding accessories brand. Despite active marketing spend, the existing site failed to convert visitors into buyers. Page load times were slow, the visual language was inconsistent across pages, and the checkout flow created unnecessary friction. The project involved a ground-up redesign of the entire Shopify storefront; from information architecture and user research through to high-fidelity UI design and front-end development.',
+    'Tiivra is a premium motorcycle helmets and riding accessories brand. Despite active marketing spend, the existing site failed to convert visitors into buyers. Page load times were slow, the visual language was inconsistent across pages, and the checkout flow created unnecessary friction. The project involved a ground-up redesign of the entire Shopify storefront; from information architecture and user research through to high-fidelity UI design and front-end development.',
   overviewImage: {
     src: '/images/case-study-site-overview-tiivra.png',
     alt: 'Tiivra storefront on desktop, tablet, and mobile',
@@ -71,7 +71,7 @@ export const tiivra = {
     },
     {
       title: 'Trust Building',
-      body: "Integrated trust signals throughout the journey: verified reviews, safety certification badges, professional photoshoot imagery, and clear return policies. Every touchpoint reinforces TIIVRA's premium brand promise.",
+      body: "Integrated trust signals throughout the journey: verified reviews, safety certification badges, professional photoshoot imagery, and clear return policies. Every touchpoint reinforces Tiivra's premium brand promise.",
     },
     {
       title: 'Conversion Focus',
@@ -83,7 +83,7 @@ export const tiivra = {
     { label: 'Collections' },
     { label: 'Helmets Hub' },
     { label: 'Accessories' },
-    { label: 'Safety Tech' },
+    { label: 'Featured' },
     { label: 'Product Detail Page (PDP)' },
   ],
   iaGroups: [
@@ -131,6 +131,6 @@ export const tiivra = {
     { value: '60%', label: 'Increase in session duration', note: 'across mobile devices' },
   ],
   resultsFoot:
-    'The redesigned TIIVRA storefront transformed browsing into buying. A conversion-focused UX, strengthened brand identity, and performance-optimised Shopify build turned an underperforming site into a revenue-driving digital storefront.',
-  next: { href: '/label-utha', name: 'Label UTHA – Premium Ethnicwear' },
+    'The redesigned Tiivra storefront transformed browsing into buying. A conversion-focused UX, strengthened brand identity, and performance-optimised Shopify build turned an underperforming site into a revenue-driving digital storefront.',
+  next: { href: '/label-utha', name: 'Label Utha – Premium Ethnicwear' },
 }

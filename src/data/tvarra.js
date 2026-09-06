@@ -9,7 +9,7 @@ export const tvarra = {
   meta: [
     { label: 'Role', value: 'UI/UX Designer & Developer' },
     { label: 'Timeline', value: '2025' },
-    { label: 'Platform', value: 'Shopify (Mobile-First)' },
+    { label: 'Platform', value: 'Shopify' },
     { label: 'Scope', value: 'New Store' },
   ],
   overviewHeadline:

@@ -7,13 +7,14 @@ export const site = {
 }
 
 export const marqueeItems = [
-  "4 BRANDS SHIPPED",
   "E-COMMERCE UX",
-  "SHOPIFY EXPERT",
+  "UI/UX DESIGN",
+  "PRODUCT DESIGN",
+  "SHOPIFY DEVELOPMENT",
   "CONVERSION-FOCUSED DESIGN",
-  "MOBILE-FIRST",
+  "MOBILE-FIRST DESIGN",
   "UX RESEARCH",
-  "PROVEN CONVERSION GROWTH",
+  "RESPONSIVE DESIGN",
 ]
 
 export const processSteps = [
@@ -35,9 +36,9 @@ export const processSteps = [
   {
     n: "04",
     title: "Build & Ship",
-    body: "Front-end development on Shopify with clean code, mobile-first responsive builds, and performance optimization.",
+    body: "Front-end development with clean code, mobile-first responsive builds, and performance optimization.",
   },
 ]
 
 export const aboutBlurb =
-  "I hold a bachelor's in Computer Engineering from NMIMS Mumbai and a master's in Computer Science from Clemson University. My graduate studies gave me a new perspective on the human side of design, and I fell in love with crafting digital experiences. Today I design and build e-commerce experiences for brands across riding gear, ethnic wear, and streetwear."
+  "I hold a bachelor's in Computer Engineering from NMIMS Mumbai and a master's in Computer Science from Clemson University. My graduate studies gave me a new perspective on the human side of design, and I fell in love with crafting digital experiences. Today I design and build e-commerce experiences for brands across different industries."

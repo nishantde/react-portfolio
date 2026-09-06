@@ -15,7 +15,7 @@ export const labelUtha = {
   overviewHeadline:
     "A Shopify store designed for a Trichy-based premium women's ethnicwear retailer expanding into e-commerce.",
   overviewBody:
-    "Label UTHA (formerly Shreenayaas) is a women's apparel retailer specializing in premium ethnic wear: salwars, sarees, fabrics, and bridal collections. The project goal was to create a modern, mobile-first Shopify store that reflects the brand's elegance while making the online shopping experience intuitive and trustworthy for a traditionally offline audience.",
+    "Label Utha (formerly Shreenayaas) is a women's apparel retailer specializing in premium ethnic wear: salwars, sarees, fabrics, and bridal collections. The project goal was to create a modern, mobile-first Shopify store that reflects the brand's elegance while making the online shopping experience intuitive and trustworthy for a traditionally offline audience.",
   overviewImage: {
     src: '/images/case-study-site-overview-label-utha.png',
     alt: 'Label Utha Salwars collection page',
