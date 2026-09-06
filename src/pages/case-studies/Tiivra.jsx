@@ -207,7 +207,7 @@ export default function Tiivra() {
 
       <nav className="cs-next">
         <div className="wrap">
-          <Link to={study.next.href}>
+          <Link to={study.next.href} className="next-link">
             <span>Next Project</span>
             <strong>{study.next.name} →</strong>
           </Link>

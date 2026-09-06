@@ -131,7 +131,7 @@ export default function Contact() {
                 Something went wrong. Try again, or email me directly.
               </p>
             ) : null}
-            <button type="submit" disabled={status === 'sending'}>
+            <button type="submit" className="btn-fill" disabled={status === 'sending'}>
               {status === 'sending' ? 'Sending…' : 'Send Message'}
             </button>
           </form>

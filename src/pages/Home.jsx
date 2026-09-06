@@ -68,7 +68,7 @@ export default function Home() {
           <SectionLabel>About</SectionLabel>
           <div className="about-row">
             <p>{aboutBlurb}</p>
-            <Link to="/about" className="about-link">
+            <Link to="/about" className="text-link about-link">
               More about me →
             </Link>
           </div>

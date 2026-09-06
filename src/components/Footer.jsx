@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-cta wrap">
         <h2>Let's work together</h2>
-        <Link to="/contact" className="btn-primary">
+        <Link to="/contact" className="btn-fill btn-primary">
           Get in Touch
         </Link>
       </div>

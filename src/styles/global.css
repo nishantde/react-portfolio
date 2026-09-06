@@ -1382,3 +1382,42 @@ button {
 @media (prefers-reduced-motion: reduce) {
   .fade-img { opacity: 1; transition: none; }
 }
+
+/* Hover states */
+.work-card .fade-img,
+.work-card img {
+  transform: scale(1);
+  transition:
+    opacity 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.work-card:hover .fade-img,
+.work-card:hover img {
+  transform: scale(1.04);
+}
+
+.btn-fill:hover { filter: brightness(1.1); }
+
+.btn-fill:active { filter: brightness(0.96); }
+
+.next-link {
+  display: inline-block;
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.next-link:hover { transform: translateX(4px); }
+
+.text-link { transition: color 150ms ease; }
+
+.text-link:hover { color: var(--primary); }
+
+@media (prefers-reduced-motion: reduce) {
+  .work-card:hover .fade-img,
+  
+  .work-card:hover img,
+  
+  .next-link:hover {
+    transform: none;
+  }
+}
