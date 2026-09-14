@@ -352,7 +352,7 @@ img {
 
 .work-card img {
   width: 100%;
-  aspect-ratio: 2.1 / 1;
+  aspect-ratio: 5 / 3;
   object-fit: cover;
   border-radius: var(--radius);
 }
@@ -1394,17 +1394,18 @@ button {
 .work-card img {
   display: block;
   width: 100%;
-  transform: scale(1);
+  transform: scale(1.02);
   transform-origin: center;
   transition:
     opacity 0.35s cubic-bezier(0.22, 1, 0.36, 1),
-    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .work-card:hover .work-card-img,
 .work-card:hover .fade-img,
 .work-card:hover img {
-  transform: scale(1.04);
+  transform: scale(1.06);
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .btn-fill:hover { filter: brightness(1.1); }
