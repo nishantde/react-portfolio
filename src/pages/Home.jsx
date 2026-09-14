@@ -6,6 +6,8 @@ import { aboutBlurb, processSteps } from "../data/site"
 import { workItems } from "../data/work"
 import Reveal from '../components/Reveal.jsx'
 import HeroStagger from '../components/HeroStagger.jsx'
+import FadeImage from '../components/FadeImage.jsx'
+import { thespian } from '../data/thespian'
 
 export default function Home() {
   return (
@@ -45,6 +47,29 @@ export default function Home() {
             </Reveal>
           ))}
         </div>
+      </section>
+
+      <section className="section-tight wrap">
+        <Reveal>
+          <SectionLabel>Personal</SectionLabel>
+          <Link to="/thespian" className="thespian-home-card">
+            <div className="thespian-home-media">
+              <FadeImage
+                src={thespian.images.home.src}
+                alt={thespian.images.home.alt}
+              />
+            </div>
+            <div>
+              <p className="eyebrow">Personal · React</p>
+              <h3>Thespian</h3>
+              <p className="thespian-home-copy">
+                A title explorer I built to learn React - search, results, and
+                detail pages from public metadata APIs.
+              </p>
+              <p className="text-link thespian-home-link">Read the note →</p>
+            </div>
+          </Link>
+        </Reveal>
       </section>
 
       <section className="section-tight wrap">

@@ -7,6 +7,7 @@ import Tiivra from './pages/case-studies/Tiivra.jsx'
 import LabelUtha from './pages/case-studies/LabelUtha.jsx'
 import Tvarra from './pages/case-studies/Tvarra.jsx'
 import HighX from './pages/case-studies/HighX.jsx'
+import Thespian from './pages/Thespian.jsx'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/highx" element={<HighX />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/thespian" element={<Thespian />} />
         </Route>
       </Routes>
     </>

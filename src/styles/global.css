@@ -1363,6 +1363,243 @@ img {
   .contact-name-row { grid-template-columns: 1fr 1fr; }
 }
 
+/* Thespian page */
+.thespian-home-card {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 32px;
+  padding: 20px;
+  border: 1px solid var(--primary);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.thespian-home-media {
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+
+.thespian-home-media img {
+  display: block;
+  width: 100%;
+}
+
+.thespian-home-card h3 {
+  margin: 16px 0 0;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--primary);
+}
+
+.thespian-home-copy {
+  margin: 16px 0 0;
+  max-width: 28rem;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+.thespian-home-link {
+  margin: 24px 0 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--fg);
+}
+
+@media (min-width: 768px) {
+  .thespian-home-card {
+    margin-top: 56px;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    padding: 24px;
+  }
+
+  .thespian-home-card h3 {
+    font-size: 30px;
+  }
+
+  .thespian-home-copy {
+    font-size: 16px;
+  }
+}
+
+.thespian-hero {
+  padding-top: 40px;
+  padding-bottom: 56px;
+}
+
+.thespian-cs-lede {
+  color: var(--muted);
+}
+
+.thespian-why {
+  margin: 40px 0 0;
+  max-width: 52rem;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  color: var(--fg);
+}
+
+.thespian-how {
+  margin: 40px 0 0;
+  max-width: 40rem;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+.thespian-shots {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.thespian-shot {
+  display: block;
+  width: 100%;
+  border-radius: var(--radius);
+}
+
+.thespian-learn {
+  margin: 40px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--stroke);
+}
+
+.thespian-learn li {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--stroke);
+}
+
+.thespian-learn-num {
+  width: 32px;
+  flex-shrink: 0;
+  font-size: 14px;
+  color: var(--primary);
+}
+
+.thespian-learn p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--fg);
+}
+
+.thespian-lessons {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.thespian-lesson {
+  padding: 24px 28px;
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.thespian-lesson.is-accent {
+  border-color: var(--primary);
+}
+
+.thespian-lesson-n {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.thespian-lesson h3 {
+  margin: 20px 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--fg);
+}
+
+.thespian-lesson p {
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+.thespian-constraints {
+  background: #1a1211;
+  border-top: 1px solid var(--primary);
+  border-bottom: 1px solid var(--primary);
+}
+
+.thespian-kicker {
+  margin: 32px 0 0;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+@media (min-width: 768px) {
+  .thespian-hero {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .thespian-why {
+    margin-top: 56px;
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  .thespian-how {
+    margin-top: 56px;
+    font-size: 16px;
+  }
+
+  .thespian-shots {
+    margin-top: 56px;
+    gap: 32px;
+  }
+
+  .thespian-learn {
+    margin-top: 56px;
+  }
+
+  .thespian-learn li {
+    gap: 40px;
+    padding: 24px 0;
+  }
+
+  .thespian-learn p {
+    font-size: 18px;
+  }
+
+  .thespian-lessons {
+    margin-top: 56px;
+  }
+
+  .thespian-lesson {
+    padding: 32px;
+  }
+
+  .thespian-lesson h3 {
+    font-size: 20px;
+  }
+
+  .thespian-lesson p {
+    font-size: 16px;
+  }
+}
+
 /* Additional transition and stagger */
 a {
   transition: color 150ms ease, background-color 150ms ease, opacity 150ms ease;
