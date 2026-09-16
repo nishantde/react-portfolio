@@ -10,6 +10,23 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700&display=swap"
       rel="stylesheet"
     />
+    <meta name="theme-color" content="#0d0d0d" />
+    <script>
+      (function () {
+        try {
+          var s = localStorage.getItem("nishant-theme")
+          var t =
+            s === "light" || s === "dark"
+              ? s
+              : window.matchMedia("(prefers-color-scheme: light)").matches
+                ? "light"
+                : "dark"
+          document.documentElement.setAttribute("data-theme", t)
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark")
+        }
+      })()
+    </script>
     <title>Nishant Deshpande - UI/UX Designer</title>
   </head>
   <body>
