@@ -48,46 +48,32 @@ export default function Navbar() {
 
           <button
             type="button"
-            className="menu-btn"
+            className={`menu-btn${open ? " is-open" : ""}`}
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
           >
-            {open ? (
-              <span aria-hidden>X</span>
-            ) : (
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                aria-hidden
-              >
-                <path
-                  d="M4 7h16M4 12h16M4 17h16"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                />
-              </svg>
-            )}
+            <span className="menu-line" />
+            <span className="menu-line" />
+            <span className="menu-line" />
           </button>
         </div>
       </div>
 
-      <nav className={`nav-mobile${open ? " open" : ""}`}>
+      <nav className={`nav-mobile${open ? " is-open" : ""}`} aria-hidden={!open}>
         <a
           href={site.resumeHref}
           target="_blank"
           rel="noreferrer"
+          className="nav-mobile-link"
           onClick={() => setOpen(false)}
         >
           Resume
         </a>
-        <NavLink to="/about" onClick={() => setOpen(false)}>
+        <NavLink to="/about" className="nav-mobile-link" onClick={() => setOpen(false)}>
           About
         </NavLink>
-        <NavLink to="/contact" onClick={() => setOpen(false)}>
+        <NavLink to="/contact" className="nav-mobile-link" onClick={() => setOpen(false)}>
           Contact
         </NavLink>
       </nav>
