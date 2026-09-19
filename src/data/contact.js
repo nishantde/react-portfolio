@@ -5,7 +5,7 @@ export const contact = {
   title: 'Have an idea?',
   kicker: "Great, let's discuss it together.",
   lede: "Fill out the form below and I'll get back to you within 24 hours.",
-  email: 'deshpande.nishant12@gmail.com',
+  email: 'contact@nishant.work',
   phone: '+91 98209 23067',
   phoneHref: 'tel:+919820923067',
   location: 'Mumbai, India',

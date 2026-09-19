@@ -1,6 +1,6 @@
 export const about = {
   title: "Hey, I'm Nishant",
-  lede: 'UI/UX Designer & Front-End Developer based in Mumbai',
+  lede: 'I work on digital experiences that feel as natural as a conversation.',
   photo: {
     src: '/images/about-me-photo.png',
     alt: 'Nishant Deshpande',

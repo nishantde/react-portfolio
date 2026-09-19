@@ -56,16 +56,14 @@ export default function About() {
   return (
     <article>
       <header className="wrap about-hero">
-        <HeroStagger>
+        <HeroStagger className="about-intro">
           <h1 className="about-title">{about.title}</h1>
           <p className="about-lede">{about.lede}</p>
-          <div className="about-intro">
-            <FadeImage src={about.photo.src} alt={about.photo.alt} />
-            <div className="about-bio">
-              {about.bio.map((p) => (
-                <p key={p}>{p}</p>
-              ))}
-            </div>
+          <FadeImage src={about.photo.src} alt={about.photo.alt} />
+          <div className="about-bio">
+            {about.bio.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
           </div>
         </HeroStagger>
       </header>

@@ -1228,7 +1228,13 @@ html[data-theme="light"] .theme-icon-moon {
 .about-intro {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 40px;
+}
+
+.about-intro > :nth-child(3) {
+  margin-top: 40px;
+}
+
+.about-intro > :nth-child(4) {
   margin-top: 40px;
 }
 
@@ -1335,13 +1341,22 @@ html[data-theme="light"] .theme-icon-moon {
   
   .about-intro {
     grid-template-columns: 1fr 1fr;
-    gap: 64px;
+    column-gap: 64px;
     align-items: start;
   }
-  
-  .about-intro img {
-    order: 2;
+
+  .about-intro > :nth-child(1),
+  .about-intro > :nth-child(2),
+  .about-intro > :nth-child(4) {
+    grid-column: 1;
+  }
+
+  .about-intro > :nth-child(3) {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    width: 100%;
     max-width: 28rem;
+    margin-top: 0;
     justify-self: end;
   }
   
