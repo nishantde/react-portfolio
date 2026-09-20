@@ -1,14 +1,14 @@
 export const about = {
   title: "Hey, I'm Nishant",
-  lede: 'I work on digital experiences that feel as natural as a conversation.',
+  lede: 'UI/UX & Product Designer • Front-End Developer',
   photo: {
     src: '/images/about-me-photo.png',
     alt: 'Nishant Deshpande',
   },
   bio: [
-    'I am a UI/UX Designer and Front-End Developer from Mumbai who loves everything web, movies, and baking.',
-    "I completed my bachelor's in Computer Engineering from NMIMS Mumbai and my master's in Computer Science from Clemson University, South Carolina. While my undergraduate degree was focused on the developmental side of engineering, my graduate degree gave me a fresh new perspective on the other side of the glass, and I fell in love with UI design.",
-    'I have 5+ years of work experience; I worked in the United States for almost three years, and most recently, I was the Lead UI/UX Developer at Tiivra Ventures in Mumbai. Currently, I am a Freelance UI/UX Designer and Web Developer.'
+    'I am a UI/UX designer and front-end developer from Mumbai who loves everything web, movies, and baking. I currently freelance on product and storefront work, and I am looking to join a team full-time, remote or relocating.',
+    "I completed my bachelor's in Computer Engineering from NMIMS Mumbai and my master's in Computer Science from Clemson University, South Carolina. My undergraduate work focused on the engineering side of the glass and my graduate school flipped it, and that is when I fell in love with UI design.",
+    'I have 5+ years of experience, including almost three years in the United States. Most recently I was Lead UI/UX Developer at Tiivra Ventures in Mumbai.',
   ],
   skills: [
     {
